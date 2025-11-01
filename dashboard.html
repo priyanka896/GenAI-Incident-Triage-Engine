@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gov Decision Engine - Triage Dashboard</title>
+    <!-- Load Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Plotly for charting (Updated to modern version to fix warning) -->
+    <script src="https://cdn.plot.ly/plotly-2.31.1.min.js"></script>
+    <style>
+        /* Custom styles to ensure charts fill their containers */
+        #barChart, #scatterChart {
+            height: 400px; /* Standard chart height */
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 p-4 sm:p-8 font-sans">
+
+    <div class="max-w-6xl mx-auto">
+        <header class="mb-8 p-6 bg-white shadow-xl rounded-xl">
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-indigo-700">
+                🚨 Maharashtra Gov Decision Engine
+            </h1>
+            <p class="text-lg text-gray-500 mt-2">
+                Real-Time Triage Insights from Cloud Run API
+            </p>
+            <p class="text-sm text-gray-400 mt-1">
+                Data fetched from: https://decision-engine-886501598007.us-central1.run.app/triage
+            </p>
+        </header>
+
+        <main class="space-y-8">
+            <!-- Urgent Reports by Department Chart -->
+            <div class="bg-white p-6 shadow-xl rounded-xl border border-gray-200">
+                <h2 class="text-2xl font-semibold text-gray-700 mb-4">Urgent Reports by Department</h2>
+                <div id="barChart" class="w-full"></div>
+            </div>
+
+            <!-- Urgency Scores Scatter Plot -->
+            <div class="bg-white p-6 shadow-xl rounded-xl border border-gray-200">
+                <h2 class="text-2xl font-semibold text-gray-700 mb-4">Urgency Scores of Individual Reports</h2>
+                <div id="scatterChart" class="w-full"></div>
+                <p class="text-sm text-gray-500 mt-4">
+                    Hover over points to see the specific incident description and department.
+                </p>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // The URL of your deployed Cloud Run service
+        const apiUrl = "https://decision-engine-886501598007.us-central1.run.app/triage";
+        
+        // Function to create an appealing chart layout
+        const getLayout = (title) => ({
+            title: {
+                text: title,
+                font: { size: 18, family: 'Inter, sans-serif' }
+            },
+            responsive: true,
+            plot_bgcolor: '#f9f9f9',
+            paper_bgcolor: '#ffffff',
+            margin: { t: 50, b: 50, l: 50, r: 20 }
+        });
+
+        // Fetch data and generate charts
+        fetch(apiUrl)
+            .then(res => {
+                if (!res.ok) {
+                   throw new Error("HTTP error! status: " + res.status);
+                }
+                return res.json();
+            })
+            .then(data => {
+                // --- 1. Bar Chart: Urgent Reports by Department ---
+                const departments = Object.keys(data.summary.departments);
+                const counts = Object.values(data.summary.departments);
+
+                Plotly.newPlot("barChart", [{
+                    x: departments,
+                    y: counts,
+                    type: "bar",
+                    name: 'Urgent Count',
+                    marker: {
+                        color: ['#4F46E5', '#A5B4FC', '#6366F1', '#3B82F6', '#818CF8', '#1D4ED8'],
+                        line: { width: 1.5, color: '#FFFFFF' }
+                    },
+                    hoverinfo: 'x+y'
+                }], getLayout("Departmental Urgency Breakdown"), {displayModeBar: false});
+
+                // --- 2. Scatter Plot: Urgency Scores of Individual Reports ---
+                const triaged = data.triaged;
+                
+                // Get descriptions for hover text
+                const hoverText = triaged.map(d =>
+  `Dept: ${d.dept}<br>ID: ${d.report_id}<br>Desc: ${d.description}<br>Score: ${d.score.toFixed(4)}`
+);
+
+
+
+                Plotly.newPlot("scatterChart", [{
+                    x: triaged.map(d => d.report_id),
+                    y: triaged.map(d => d.score),
+                    mode: "markers",
+                    name: 'Urgency Score',
+                    marker: {
+                        size: 12,
+                        color: triaged.map(d => d.score),
+                        colorscale: "Reds", // Use Reds for urgency
+                        showscale: true,
+                        colorbar: { title: 'Urgency Score' }
+                    },
+                    text: hoverText,
+                    hoverinfo: 'text'
+                }], getLayout("Urgency Scores of Reports (Top 20)"), {displayModeBar: false});
+
+            })
+            .catch(error => {
+                console.error("Error fetching or processing data:", error);
+                
+                // Provide a clear, actionable message about the likely CORS issue
+                // Provide a clear, actionable message about the likely CORS issue
+let errorMessage = `<p class="text-xl font-bold text-red-600">⚠️ ERROR: Could not fetch data from the Cloud Run API.</p>`;
+errorMessage += `<p class="mt-2 text-red-700">The most common cause for this <strong>Failed to fetch</strong> error is that the Cloud Run service (<strong>decision-engine</strong>) is not configured to allow <strong>Cross-Origin Resource Sharing (CORS)</strong> from this domain.</p>`;
+errorMessage += `<p class="mt-1 text-red-700"><strong>Action:</strong> Please redeploy your Cloud Run service using the <code>--set-cors</code> flag to fix this issue.</p>`;
+
+document.getElementById('barChart').innerHTML = errorMessage;
+document.getElementById('scatterChart').innerHTML = '';
+
+            });
+    </script>
+</body>
+</html>
