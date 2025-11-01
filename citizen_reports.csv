@@ -1,0 +1,501 @@
+report_id,created_ts,dept,description,urgency_label,latitude,longitude
+1,2025-10-28 14:48:00,Sanitation,Garbage not collected for a week,Medium,18.766912,73.309868
+2,2025-10-26 12:30:00,Electricity,Fallen power line,Low,18.327664,72.778547
+3,2025-10-05 09:39:00,Electricity,Fallen power line,Low,19.215326,74.304332
+4,2025-10-10 09:46:00,Water Supply,No water supply since morning,Medium,18.839721,73.207583
+5,2025-10-11 17:40:00,Roads,Road blockade due to debris,Medium,19.297965,73.020985
+6,2025-10-26 16:58:00,Water Supply,Leakage on main street,Low,18.598235,74.14969
+7,2025-10-22 08:39:00,Sanitation,Illegal dumping observed,Medium,18.487807,74.240942
+8,2025-10-07 17:14:00,Roads,Pothole near school,Low,18.671954,72.660892
+9,2025-10-11 16:59:00,Sanitation,Garbage not collected for a week,Medium,18.436636,72.749621
+10,2025-10-11 16:13:00,Parks & Recreation,Unmaintained green space,Medium,18.667484,73.692574
+11,2025-10-13 13:36:00,Roads,Damaged sidewalk,High,19.232201,72.565945
+12,2025-10-22 12:30:00,Water Supply,Leakage on main street,Low,18.195337,72.799101
+13,2025-10-02 09:57:00,Parks & Recreation,Unmaintained green space,Medium,19.057925,73.051268
+14,2025-10-26 11:54:00,Roads,Road blockade due to debris,Medium,19.424647,73.65939
+15,2025-10-15 15:42:00,Electricity,Street light not working,Medium,18.173025,73.674149
+16,2025-10-11 11:15:00,Water Supply,No water supply since morning,Medium,19.058,73.24412
+17,2025-10-06 13:27:00,Water Supply,Leakage on main street,Low,19.282984,72.937547
+18,2025-10-27 17:40:00,Parks & Recreation,Unmaintained green space,Low,18.040045,73.77
+19,2025-10-20 17:07:00,Sanitation,Garbage not collected for a week,Medium,19.470775,72.572784
+20,2025-10-01 11:11:00,Water Supply,Water contamination report,Medium,19.20112,74.373938
+21,2025-10-01 16:27:00,Parks & Recreation,Damaged playground equipment,Low,18.105006,72.643943
+22,2025-10-10 13:27:00,Roads,Pothole near school,Medium,18.059068,72.701842
+23,2025-10-13 11:16:00,Electricity,Fallen power line,Medium,19.353456,73.639537
+24,2025-10-23 11:49:00,Water Supply,No water supply since morning,High,18.242931,73.558948
+25,2025-10-04 17:58:00,Sanitation,Clogged drain,High,18.707438,73.319811
+26,2025-10-19 16:58:00,Electricity,Fallen power line,Medium,19.256492,73.001865
+27,2025-10-18 08:29:00,Water Supply,Water contamination report,Low,18.816479,72.769675
+28,2025-10-25 15:22:00,Parks & Recreation,Park lights non-functional,Low,18.885417,74.283887
+29,2025-10-28 17:08:00,Electricity,Flickering power in neighborhood,Low,19.243354,72.661446
+30,2025-10-20 11:44:00,Electricity,Street light not working,Medium,18.956099,73.257296
+31,2025-10-29 17:55:00,Sanitation,Garbage not collected for a week,Medium,19.052744,73.336453
+32,2025-10-22 08:10:00,Sanitation,Garbage not collected for a week,Medium,18.23653,73.555146
+33,2025-10-16 16:38:00,Water Supply,Leakage on main street,Medium,18.468087,73.433784
+34,2025-10-26 14:12:00,Parks & Recreation,Unmaintained green space,Low,19.256173,72.761044
+35,2025-10-01 14:43:00,Sanitation,Illegal dumping observed,High,18.021437,74.009508
+36,2025-10-27 16:39:00,Water Supply,Leakage on main street,High,18.973898,74.247308
+37,2025-10-09 10:06:00,Sanitation,Illegal dumping observed,Low,18.032768,74.327762
+38,2025-10-26 09:55:00,Electricity,Street light not working,Low,19.22591,73.789881
+39,2025-10-04 10:17:00,Water Supply,Leakage on main street,High,19.021495,73.616711
+40,2025-10-31 13:36:00,Water Supply,No water supply since morning,Low,18.911395,73.488971
+41,2025-10-21 15:40:00,Sanitation,Illegal dumping observed,Low,18.267432,73.251158
+42,2025-10-10 08:08:00,Roads,Damaged sidewalk,Medium,19.184435,73.936999
+43,2025-10-11 17:02:00,Water Supply,Water contamination report,High,19.472871,73.079062
+44,2025-10-13 16:08:00,Electricity,Street light not working,Medium,18.359559,72.596513
+45,2025-10-06 16:46:00,Water Supply,Water contamination report,Medium,18.492781,73.329443
+46,2025-10-04 16:58:00,Sanitation,Illegal dumping observed,Medium,19.196812,74.124657
+47,2025-10-04 15:07:00,Sanitation,Illegal dumping observed,High,18.502623,73.874221
+48,2025-10-05 10:40:00,Parks & Recreation,Park lights non-functional,Low,19.48725,72.673844
+49,2025-10-26 09:12:00,Roads,Pothole near school,Medium,18.147115,73.612949
+50,2025-10-10 15:58:00,Sanitation,Clogged drain,Low,18.32588,72.667326
+51,2025-10-08 12:37:00,Roads,Damaged sidewalk,High,18.172519,74.143961
+52,2025-10-28 08:57:00,Parks & Recreation,Park lights non-functional,Low,18.302532,73.494175
+53,2025-10-09 11:41:00,Water Supply,Leakage on main street,Low,18.156945,73.416816
+54,2025-10-12 16:52:00,Roads,Pothole near school,Low,19.474484,72.796804
+55,2025-10-13 14:56:00,Parks & Recreation,Park lights non-functional,Low,19.331673,74.167067
+56,2025-10-16 11:34:00,Parks & Recreation,Damaged playground equipment,High,19.058391,73.994078
+57,2025-10-11 13:02:00,Parks & Recreation,Damaged playground equipment,Low,18.90388,72.811811
+58,2025-10-13 17:18:00,Sanitation,Garbage not collected for a week,Low,18.774792,74.331029
+59,2025-10-03 11:08:00,Water Supply,Water contamination report,High,19.265932,73.161189
+60,2025-10-06 10:55:00,Sanitation,Illegal dumping observed,Medium,19.351636,73.504857
+61,2025-10-19 09:43:00,Parks & Recreation,Unmaintained green space,Low,19.120448,74.311561
+62,2025-10-07 12:34:00,Parks & Recreation,Park lights non-functional,Low,18.72332,74.08208
+63,2025-10-13 17:37:00,Roads,Pothole near school,Low,18.000361,72.863938
+64,2025-10-17 17:16:00,Electricity,Street light not working,Medium,18.393011,74.150041
+65,2025-10-25 14:24:00,Sanitation,Garbage not collected for a week,High,19.403287,72.977903
+66,2025-10-24 13:03:00,Water Supply,Water contamination report,Medium,18.737746,74.22665
+67,2025-10-23 09:43:00,Roads,Damaged sidewalk,Medium,18.917656,73.273366
+68,2025-10-02 09:30:00,Roads,Pothole near school,High,18.926101,73.759933
+69,2025-10-04 16:41:00,Electricity,Street light not working,Medium,19.16463,73.480639
+70,2025-10-29 08:39:00,Sanitation,Clogged drain,Low,18.506798,72.748648
+71,2025-10-22 17:18:00,Roads,Damaged sidewalk,Low,19.375331,74.245069
+72,2025-10-22 09:33:00,Roads,Pothole near school,Low,18.666869,74.013232
+73,2025-10-15 13:50:00,Water Supply,Leakage on main street,Low,18.059971,73.010773
+74,2025-10-01 16:42:00,Parks & Recreation,Unmaintained green space,Low,18.344483,74.052685
+75,2025-10-29 16:44:00,Parks & Recreation,Park lights non-functional,Medium,19.418228,72.791381
+76,2025-10-29 17:27:00,Water Supply,Leakage on main street,Medium,18.148816,74.047637
+77,2025-10-24 08:50:00,Sanitation,Illegal dumping observed,Low,18.045201,74.338565
+78,2025-10-31 13:46:00,Electricity,Street light not working,Medium,18.182067,73.88355
+79,2025-10-12 13:11:00,Water Supply,Leakage on main street,Low,18.105776,74.28687
+80,2025-10-07 08:13:00,Water Supply,No water supply since morning,High,18.553695,72.5493
+81,2025-10-20 11:54:00,Roads,Pothole near school,Medium,18.715041,73.914961
+82,2025-10-09 10:01:00,Roads,Damaged sidewalk,Medium,19.441361,73.092693
+83,2025-10-29 16:40:00,Electricity,Street light not working,Medium,18.121214,73.566456
+84,2025-10-10 10:24:00,Roads,Pothole near school,Low,18.473837,72.985677
+85,2025-10-25 10:18:00,Electricity,Flickering power in neighborhood,Low,19.291462,73.702416
+86,2025-10-13 09:44:00,Water Supply,Leakage on main street,Medium,18.826166,73.981758
+87,2025-10-05 17:27:00,Electricity,Fallen power line,Medium,18.372088,73.765558
+88,2025-10-21 16:03:00,Sanitation,Illegal dumping observed,High,19.442935,74.302525
+89,2025-10-15 11:23:00,Electricity,Flickering power in neighborhood,High,18.278187,72.717231
+90,2025-10-04 16:38:00,Roads,Road blockade due to debris,Medium,18.598165,74.035281
+91,2025-10-14 10:15:00,Sanitation,Illegal dumping observed,Low,18.213851,73.424871
+92,2025-10-21 09:30:00,Roads,Damaged sidewalk,High,19.048488,73.737471
+93,2025-10-01 11:19:00,Water Supply,No water supply since morning,Medium,18.913741,73.348418
+94,2025-10-25 15:05:00,Sanitation,Garbage not collected for a week,Medium,18.607958,73.764131
+95,2025-10-01 09:17:00,Water Supply,Leakage on main street,Medium,18.789153,73.663232
+96,2025-10-13 15:06:00,Electricity,Flickering power in neighborhood,Medium,19.132834,74.317549
+97,2025-10-20 09:02:00,Water Supply,Water contamination report,Medium,18.509836,73.560371
+98,2025-10-08 10:04:00,Sanitation,Illegal dumping observed,Medium,18.201631,73.54612
+99,2025-10-07 16:06:00,Sanitation,Clogged drain,Medium,19.112141,74.308091
+100,2025-10-09 12:28:00,Electricity,Fallen power line,Low,18.235605,73.894064
+101,2025-10-13 14:37:00,Sanitation,Garbage not collected for a week,Medium,18.448442,73.764223
+102,2025-10-24 14:13:00,Sanitation,Illegal dumping observed,Low,18.47736,73.804109
+103,2025-10-02 15:19:00,Roads,Road blockade due to debris,Medium,19.331003,72.931428
+104,2025-10-12 15:25:00,Water Supply,No water supply since morning,Low,19.030343,72.662746
+105,2025-10-31 14:00:00,Electricity,Street light not working,High,18.005611,73.040655
+106,2025-10-21 12:46:00,Roads,Pothole near school,Low,18.431886,72.710921
+107,2025-10-15 13:24:00,Roads,Damaged sidewalk,Medium,19.345801,73.370541
+108,2025-10-15 10:33:00,Electricity,Street light not working,Medium,18.280237,73.198334
+109,2025-10-13 14:51:00,Sanitation,Illegal dumping observed,Low,19.193375,73.378544
+110,2025-10-07 17:45:00,Water Supply,Water contamination report,High,18.949764,74.242019
+111,2025-10-12 08:47:00,Roads,Pothole near school,Low,18.91876,73.909847
+112,2025-10-17 12:49:00,Electricity,Flickering power in neighborhood,Medium,18.947819,73.532249
+113,2025-10-31 16:59:00,Sanitation,Clogged drain,Medium,18.382128,73.451305
+114,2025-10-11 12:02:00,Water Supply,Leakage on main street,High,18.005812,73.809255
+115,2025-10-05 09:50:00,Sanitation,Clogged drain,Medium,18.912957,73.615537
+116,2025-10-08 15:12:00,Electricity,Fallen power line,High,19.324248,74.08958
+117,2025-10-11 16:29:00,Electricity,Flickering power in neighborhood,High,18.066529,73.237408
+118,2025-10-07 16:22:00,Roads,Pothole near school,Medium,19.093539,73.102643
+119,2025-10-17 14:16:00,Sanitation,Illegal dumping observed,Low,18.359943,73.111629
+120,2025-10-18 09:00:00,Sanitation,Illegal dumping observed,Low,18.071203,74.118005
+121,2025-10-16 15:28:00,Water Supply,Leakage on main street,High,18.148096,74.030883
+122,2025-10-14 11:28:00,Parks & Recreation,Damaged playground equipment,Low,18.838517,74.273209
+123,2025-10-13 08:11:00,Roads,Damaged sidewalk,Medium,19.260689,73.057992
+124,2025-10-12 13:27:00,Water Supply,No water supply since morning,Low,18.915123,74.078075
+125,2025-10-23 12:49:00,Sanitation,Clogged drain,Low,18.804248,73.021976
+126,2025-10-08 08:07:00,Parks & Recreation,Unmaintained green space,High,19.099328,72.997547
+127,2025-10-10 08:47:00,Parks & Recreation,Unmaintained green space,Medium,18.074656,73.269389
+128,2025-10-09 09:47:00,Parks & Recreation,Park lights non-functional,Medium,19.074824,73.593275
+129,2025-10-10 11:47:00,Roads,Pothole near school,Medium,19.011969,72.967206
+130,2025-10-21 15:18:00,Parks & Recreation,Damaged playground equipment,High,18.023248,73.509699
+131,2025-10-12 17:40:00,Water Supply,Leakage on main street,Low,18.232865,72.85353
+132,2025-10-03 10:48:00,Roads,Damaged sidewalk,Medium,19.043548,72.926916
+133,2025-10-24 10:52:00,Roads,Damaged sidewalk,Medium,18.886542,73.757979
+134,2025-10-29 09:39:00,Water Supply,No water supply since morning,Medium,18.733799,73.117399
+135,2025-10-31 11:35:00,Roads,Road blockade due to debris,Low,19.213855,73.974743
+136,2025-10-18 13:45:00,Water Supply,Water contamination report,High,18.602781,72.882133
+137,2025-10-11 12:24:00,Water Supply,Leakage on main street,High,19.089691,74.423383
+138,2025-10-11 15:42:00,Roads,Damaged sidewalk,Medium,18.243498,72.533953
+139,2025-10-19 16:03:00,Roads,Damaged sidewalk,High,18.941745,72.549129
+140,2025-10-02 08:14:00,Electricity,Street light not working,Low,18.517393,73.827951
+141,2025-10-05 11:28:00,Sanitation,Garbage not collected for a week,Medium,18.265403,73.157626
+142,2025-10-26 14:24:00,Water Supply,Water contamination report,Low,18.800558,74.109201
+143,2025-10-22 15:48:00,Water Supply,No water supply since morning,Low,18.613401,73.280598
+144,2025-10-01 16:08:00,Parks & Recreation,Unmaintained green space,Medium,19.098652,72.796336
+145,2025-10-11 11:53:00,Roads,Pothole near school,Low,19.434847,74.292654
+146,2025-10-24 16:10:00,Water Supply,Water contamination report,Low,18.896818,73.74102
+147,2025-10-15 10:39:00,Parks & Recreation,Damaged playground equipment,Medium,19.208842,73.965438
+148,2025-10-01 08:31:00,Water Supply,Water contamination report,Medium,18.226214,72.97229
+149,2025-10-12 10:47:00,Sanitation,Illegal dumping observed,Medium,18.73847,73.285186
+150,2025-10-10 16:57:00,Electricity,Fallen power line,Medium,18.052392,73.563586
+151,2025-10-18 12:59:00,Water Supply,Water contamination report,Medium,18.180023,73.193178
+152,2025-10-02 08:17:00,Water Supply,Water contamination report,Low,18.873006,74.051835
+153,2025-10-10 11:48:00,Parks & Recreation,Unmaintained green space,Medium,19.467682,74.443733
+154,2025-10-07 09:36:00,Electricity,Street light not working,Medium,19.080127,73.86265
+155,2025-10-12 10:58:00,Roads,Damaged sidewalk,Low,19.23012,73.669865
+156,2025-10-02 17:09:00,Electricity,Flickering power in neighborhood,Medium,18.440136,73.489718
+157,2025-10-13 17:27:00,Roads,Pothole near school,Low,18.852904,73.383778
+158,2025-10-11 08:46:00,Sanitation,Clogged drain,Low,19.167927,73.994564
+159,2025-10-07 09:35:00,Sanitation,Illegal dumping observed,Low,18.26075,72.839718
+160,2025-10-22 10:37:00,Water Supply,No water supply since morning,Low,18.815134,73.269397
+161,2025-10-14 12:19:00,Electricity,Street light not working,Medium,19.486272,73.935837
+162,2025-10-31 12:34:00,Parks & Recreation,Unmaintained green space,Medium,18.513396,73.911145
+163,2025-10-14 10:54:00,Water Supply,No water supply since morning,High,18.991691,74.347406
+164,2025-10-19 14:23:00,Sanitation,Garbage not collected for a week,Medium,18.617455,73.728267
+165,2025-10-26 11:57:00,Water Supply,Water contamination report,Medium,19.412036,73.860516
+166,2025-10-21 13:40:00,Sanitation,Garbage not collected for a week,Low,18.373792,74.283509
+167,2025-10-09 10:48:00,Sanitation,Garbage not collected for a week,Medium,18.3551,73.927632
+168,2025-10-28 16:57:00,Water Supply,Leakage on main street,High,19.385339,74.355973
+169,2025-10-21 14:17:00,Electricity,Flickering power in neighborhood,Low,19.160219,73.719378
+170,2025-10-03 12:01:00,Sanitation,Garbage not collected for a week,Low,18.304182,73.295797
+171,2025-10-14 14:44:00,Water Supply,No water supply since morning,Medium,19.244779,72.753627
+172,2025-10-23 12:20:00,Water Supply,Water contamination report,Medium,18.782539,72.583173
+173,2025-10-19 13:23:00,Water Supply,Leakage on main street,High,18.166216,73.581244
+174,2025-10-02 13:59:00,Water Supply,Water contamination report,Medium,18.187906,74.48563
+175,2025-10-21 12:26:00,Roads,Road blockade due to debris,High,19.299914,73.522984
+176,2025-10-06 10:57:00,Roads,Damaged sidewalk,Low,19.074411,73.947149
+177,2025-10-24 16:02:00,Parks & Recreation,Unmaintained green space,Low,18.946832,74.399357
+178,2025-10-12 17:52:00,Water Supply,Leakage on main street,Medium,19.219948,72.903209
+179,2025-10-09 13:44:00,Electricity,Flickering power in neighborhood,Medium,18.684718,74.319994
+180,2025-10-25 15:35:00,Roads,Pothole near school,Low,18.265449,73.524445
+181,2025-10-29 13:52:00,Water Supply,Leakage on main street,Low,18.684821,72.977443
+182,2025-10-15 16:10:00,Electricity,Fallen power line,High,19.157281,72.614329
+183,2025-10-03 16:21:00,Water Supply,Leakage on main street,High,18.911311,73.640548
+184,2025-10-11 14:32:00,Electricity,Fallen power line,High,18.475337,72.545451
+185,2025-10-24 10:01:00,Electricity,Fallen power line,High,18.620754,72.624079
+186,2025-10-10 14:58:00,Water Supply,No water supply since morning,Low,19.067025,73.215767
+187,2025-10-27 09:26:00,Water Supply,Water contamination report,Medium,19.352762,74.012935
+188,2025-10-22 12:36:00,Sanitation,Illegal dumping observed,High,18.680594,73.028299
+189,2025-10-31 14:04:00,Electricity,Street light not working,High,18.526177,72.854174
+190,2025-10-20 08:20:00,Sanitation,Clogged drain,Low,19.042271,73.453065
+191,2025-10-28 08:34:00,Sanitation,Illegal dumping observed,High,18.773798,74.1732
+192,2025-10-03 13:22:00,Water Supply,Water contamination report,Low,18.231408,73.533194
+193,2025-10-26 12:02:00,Water Supply,Water contamination report,Medium,19.416621,73.891954
+194,2025-10-06 10:49:00,Roads,Road blockade due to debris,Low,19.41473,74.368281
+195,2025-10-11 08:30:00,Sanitation,Garbage not collected for a week,Medium,18.953508,73.157138
+196,2025-10-31 11:22:00,Roads,Pothole near school,Low,18.694348,74.253024
+197,2025-10-05 14:36:00,Water Supply,Leakage on main street,Low,18.008456,73.279815
+198,2025-10-26 10:09:00,Water Supply,Leakage on main street,Low,18.765132,72.576364
+199,2025-10-25 09:36:00,Parks & Recreation,Damaged playground equipment,Low,19.010386,73.259749
+200,2025-10-01 14:27:00,Parks & Recreation,Unmaintained green space,Medium,18.371938,72.775662
+201,2025-10-17 11:34:00,Sanitation,Garbage not collected for a week,High,18.849163,73.201186
+202,2025-10-04 14:57:00,Sanitation,Garbage not collected for a week,Medium,18.33755,73.289675
+203,2025-10-21 15:25:00,Parks & Recreation,Damaged playground equipment,Low,19.496951,74.270079
+204,2025-10-12 16:01:00,Parks & Recreation,Unmaintained green space,Low,19.315127,73.052564
+205,2025-10-20 13:55:00,Sanitation,Clogged drain,High,19.316459,72.597435
+206,2025-10-23 14:01:00,Sanitation,Clogged drain,Low,18.589662,74.349129
+207,2025-10-23 15:38:00,Sanitation,Garbage not collected for a week,High,18.711539,72.818019
+208,2025-10-30 12:48:00,Parks & Recreation,Damaged playground equipment,Low,18.518131,73.75721
+209,2025-10-25 15:40:00,Parks & Recreation,Damaged playground equipment,High,19.436007,72.853796
+210,2025-10-19 13:18:00,Sanitation,Clogged drain,High,18.827153,72.569802
+211,2025-10-14 12:24:00,Roads,Damaged sidewalk,High,18.165448,73.213927
+212,2025-10-01 14:36:00,Sanitation,Illegal dumping observed,High,19.066155,73.861647
+213,2025-10-25 14:34:00,Parks & Recreation,Damaged playground equipment,High,18.311196,72.956499
+214,2025-10-17 10:52:00,Sanitation,Illegal dumping observed,Low,18.935026,73.076079
+215,2025-10-26 13:43:00,Water Supply,Water contamination report,Low,18.392653,72.816639
+216,2025-10-21 16:21:00,Parks & Recreation,Unmaintained green space,High,18.564208,73.979598
+217,2025-10-18 12:15:00,Sanitation,Illegal dumping observed,Medium,18.70691,73.112317
+218,2025-10-14 14:52:00,Water Supply,No water supply since morning,Low,18.221469,73.666984
+219,2025-10-21 16:06:00,Roads,Road blockade due to debris,Low,19.472582,72.72237
+220,2025-10-23 17:10:00,Sanitation,Garbage not collected for a week,Low,18.015729,74.284823
+221,2025-10-27 15:20:00,Water Supply,No water supply since morning,Medium,18.876379,73.007767
+222,2025-10-16 11:59:00,Roads,Road blockade due to debris,Medium,19.342016,74.06104
+223,2025-10-17 10:01:00,Roads,Road blockade due to debris,Medium,18.990973,73.376371
+224,2025-10-22 14:16:00,Water Supply,No water supply since morning,High,18.582327,74.27036
+225,2025-10-19 08:58:00,Sanitation,Garbage not collected for a week,Low,18.607782,72.966191
+226,2025-10-28 15:02:00,Sanitation,Clogged drain,High,19.24974,73.48056
+227,2025-10-21 14:30:00,Electricity,Street light not working,Medium,18.546483,73.104907
+228,2025-10-20 10:29:00,Water Supply,Leakage on main street,Medium,18.84918,73.319965
+229,2025-10-03 12:30:00,Roads,Pothole near school,Medium,18.539194,72.688297
+230,2025-10-22 08:52:00,Roads,Road blockade due to debris,Medium,18.010583,74.224072
+231,2025-10-18 17:31:00,Water Supply,Water contamination report,Medium,19.312058,73.186091
+232,2025-10-04 08:15:00,Roads,Damaged sidewalk,Low,18.467243,72.949232
+233,2025-10-16 13:32:00,Electricity,Street light not working,High,18.8605,72.952514
+234,2025-10-12 14:55:00,Roads,Pothole near school,Medium,18.298967,74.052487
+235,2025-10-22 13:18:00,Sanitation,Clogged drain,High,19.167834,73.302385
+236,2025-10-17 15:14:00,Electricity,Fallen power line,Low,18.647883,73.218428
+237,2025-10-13 12:55:00,Water Supply,Water contamination report,Low,18.180941,72.808532
+238,2025-10-30 11:47:00,Roads,Damaged sidewalk,Medium,18.164962,73.267813
+239,2025-10-13 15:32:00,Sanitation,Clogged drain,Low,18.330983,73.298576
+240,2025-10-10 15:14:00,Electricity,Fallen power line,Low,18.137843,73.13429
+241,2025-10-29 11:52:00,Sanitation,Garbage not collected for a week,Medium,18.060654,72.686956
+242,2025-10-07 13:11:00,Water Supply,Leakage on main street,Low,18.546232,72.967467
+243,2025-10-02 08:24:00,Parks & Recreation,Damaged playground equipment,High,19.232258,73.711758
+244,2025-10-30 11:05:00,Sanitation,Garbage not collected for a week,Low,18.780331,73.742792
+245,2025-10-14 09:34:00,Roads,Pothole near school,Medium,18.623138,73.44937
+246,2025-10-01 14:13:00,Sanitation,Garbage not collected for a week,Low,18.403977,73.665621
+247,2025-10-23 13:52:00,Electricity,Fallen power line,Medium,18.201568,73.534062
+248,2025-10-09 09:45:00,Water Supply,Water contamination report,High,18.212846,74.044223
+249,2025-10-05 14:13:00,Parks & Recreation,Unmaintained green space,Medium,18.631758,73.50074
+250,2025-10-18 09:44:00,Sanitation,Garbage not collected for a week,Medium,18.671536,72.857352
+251,2025-10-18 13:08:00,Sanitation,Illegal dumping observed,Medium,18.847474,73.171187
+252,2025-10-27 11:29:00,Roads,Damaged sidewalk,Medium,19.402622,72.547831
+253,2025-10-24 08:35:00,Sanitation,Illegal dumping observed,Medium,18.361589,73.454464
+254,2025-10-05 11:28:00,Electricity,Flickering power in neighborhood,Low,18.899171,74.359091
+255,2025-10-27 16:43:00,Water Supply,Leakage on main street,Medium,18.776707,73.846326
+256,2025-10-31 08:09:00,Electricity,Street light not working,Medium,18.932679,72.82071
+257,2025-10-29 15:24:00,Roads,Damaged sidewalk,Medium,18.251267,72.594267
+258,2025-10-31 13:56:00,Parks & Recreation,Damaged playground equipment,Low,18.274805,74.346169
+259,2025-10-23 17:37:00,Sanitation,Garbage not collected for a week,Low,18.926518,74.297708
+260,2025-10-19 11:38:00,Sanitation,Garbage not collected for a week,Medium,19.357425,74.187052
+261,2025-10-18 11:00:00,Water Supply,Leakage on main street,High,18.664829,73.848408
+262,2025-10-08 09:55:00,Parks & Recreation,Park lights non-functional,Low,18.951098,73.072785
+263,2025-10-22 13:31:00,Roads,Pothole near school,Medium,19.264857,73.935012
+264,2025-10-13 15:42:00,Electricity,Flickering power in neighborhood,High,18.329661,72.726594
+265,2025-10-05 14:29:00,Parks & Recreation,Damaged playground equipment,Low,19.056325,72.542556
+266,2025-10-07 09:54:00,Sanitation,Clogged drain,Medium,19.186082,73.581688
+267,2025-10-21 08:42:00,Roads,Road blockade due to debris,Low,18.734563,73.260299
+268,2025-10-18 09:05:00,Parks & Recreation,Unmaintained green space,Medium,18.022934,73.338687
+269,2025-10-25 13:19:00,Water Supply,No water supply since morning,High,19.212742,73.72773
+270,2025-10-28 08:37:00,Parks & Recreation,Park lights non-functional,High,18.387589,73.687035
+271,2025-10-09 11:24:00,Sanitation,Clogged drain,Medium,18.509659,74.148286
+272,2025-10-09 09:02:00,Roads,Damaged sidewalk,Low,18.845344,72.626597
+273,2025-10-17 15:27:00,Electricity,Flickering power in neighborhood,Low,18.036438,73.368498
+274,2025-10-22 10:48:00,Roads,Pothole near school,High,18.644656,72.563581
+275,2025-10-09 12:24:00,Water Supply,Water contamination report,Medium,18.924266,73.774316
+276,2025-10-24 16:34:00,Water Supply,Water contamination report,Medium,18.020931,74.316073
+277,2025-10-27 08:40:00,Electricity,Flickering power in neighborhood,High,19.493654,72.698645
+278,2025-10-18 14:50:00,Water Supply,Water contamination report,Medium,18.781051,74.222456
+279,2025-10-19 10:31:00,Water Supply,No water supply since morning,Low,18.335087,72.693632
+280,2025-10-27 11:11:00,Roads,Damaged sidewalk,Medium,19.047573,73.377969
+281,2025-10-06 12:46:00,Electricity,Fallen power line,Low,18.324102,74.156438
+282,2025-10-05 12:35:00,Water Supply,Leakage on main street,Low,18.492122,74.244456
+283,2025-10-26 13:02:00,Water Supply,No water supply since morning,High,19.205023,72.832965
+284,2025-10-09 11:32:00,Parks & Recreation,Park lights non-functional,Low,18.133363,73.505458
+285,2025-10-27 14:07:00,Water Supply,No water supply since morning,Low,19.495061,72.848269
+286,2025-10-08 14:43:00,Electricity,Street light not working,High,18.012331,74.191322
+287,2025-10-03 13:20:00,Parks & Recreation,Unmaintained green space,Low,18.072649,73.916924
+288,2025-10-28 16:08:00,Electricity,Fallen power line,High,18.582921,73.061752
+289,2025-10-08 12:20:00,Parks & Recreation,Park lights non-functional,Low,19.0624,73.347309
+290,2025-10-06 16:03:00,Roads,Road blockade due to debris,Low,18.575551,72.97698
+291,2025-10-10 09:52:00,Roads,Pothole near school,Low,18.022791,74.007788
+292,2025-10-17 14:07:00,Parks & Recreation,Damaged playground equipment,Medium,18.402827,73.363009
+293,2025-10-23 08:10:00,Parks & Recreation,Park lights non-functional,Medium,18.226726,74.097858
+294,2025-10-26 10:11:00,Parks & Recreation,Park lights non-functional,Medium,18.271874,74.22838
+295,2025-10-24 14:59:00,Roads,Pothole near school,Low,18.19323,74.166538
+296,2025-10-22 10:47:00,Roads,Road blockade due to debris,Low,18.44908,74.235406
+297,2025-10-26 08:46:00,Sanitation,Garbage not collected for a week,High,18.251715,73.511059
+298,2025-10-07 14:34:00,Parks & Recreation,Park lights non-functional,High,19.283707,73.565618
+299,2025-10-29 09:00:00,Roads,Road blockade due to debris,Medium,19.011148,74.469371
+300,2025-10-12 14:16:00,Water Supply,Leakage on main street,Medium,19.111154,74.216007
+301,2025-10-25 08:32:00,Water Supply,No water supply since morning,Medium,18.675916,74.055912
+302,2025-10-25 10:38:00,Parks & Recreation,Park lights non-functional,High,18.221604,73.833697
+303,2025-10-12 12:32:00,Electricity,Street light not working,High,19.21037,74.37048
+304,2025-10-28 11:38:00,Sanitation,Illegal dumping observed,Medium,18.660559,73.450883
+305,2025-10-10 13:22:00,Parks & Recreation,Park lights non-functional,Medium,18.601906,74.290654
+306,2025-10-10 17:53:00,Roads,Pothole near school,Medium,18.397736,72.834821
+307,2025-10-05 17:33:00,Parks & Recreation,Unmaintained green space,Low,18.971203,74.334137
+308,2025-10-09 14:19:00,Sanitation,Clogged drain,Medium,19.184186,72.888648
+309,2025-10-09 15:44:00,Water Supply,Leakage on main street,Medium,18.154821,73.012707
+310,2025-10-26 08:52:00,Roads,Pothole near school,Low,19.360821,73.822576
+311,2025-10-20 12:00:00,Water Supply,Leakage on main street,Low,19.392676,74.162522
+312,2025-10-10 11:25:00,Sanitation,Clogged drain,Medium,18.532077,73.66415
+313,2025-10-26 09:44:00,Water Supply,Leakage on main street,High,18.79754,73.205577
+314,2025-10-07 14:12:00,Electricity,Street light not working,Low,18.74446,72.802293
+315,2025-10-19 16:26:00,Parks & Recreation,Unmaintained green space,Low,19.291815,74.311869
+316,2025-10-02 14:57:00,Parks & Recreation,Damaged playground equipment,Low,18.972374,72.771095
+317,2025-10-03 14:19:00,Electricity,Fallen power line,Low,19.388954,73.738251
+318,2025-10-23 08:21:00,Roads,Damaged sidewalk,Low,18.985533,73.048775
+319,2025-10-16 17:58:00,Electricity,Flickering power in neighborhood,Low,18.116851,74.108307
+320,2025-10-06 09:32:00,Electricity,Fallen power line,Low,18.912012,73.342557
+321,2025-10-06 17:59:00,Sanitation,Garbage not collected for a week,Low,19.219364,74.048491
+322,2025-10-04 17:49:00,Water Supply,Leakage on main street,Low,18.723416,73.872891
+323,2025-10-04 14:16:00,Electricity,Street light not working,Low,18.763618,73.572034
+324,2025-10-03 08:02:00,Parks & Recreation,Damaged playground equipment,Low,19.430062,74.27671
+325,2025-10-14 14:50:00,Sanitation,Garbage not collected for a week,Medium,19.229698,72.670156
+326,2025-10-13 17:47:00,Roads,Pothole near school,Medium,19.372429,74.304997
+327,2025-10-02 17:50:00,Sanitation,Garbage not collected for a week,Medium,19.055024,73.313391
+328,2025-10-29 16:03:00,Sanitation,Clogged drain,High,19.412144,72.754228
+329,2025-10-07 17:10:00,Water Supply,No water supply since morning,Medium,18.401807,72.923268
+330,2025-10-22 08:55:00,Water Supply,No water supply since morning,Low,18.105245,72.520509
+331,2025-10-10 10:49:00,Roads,Road blockade due to debris,High,19.492689,74.406541
+332,2025-10-01 13:53:00,Roads,Damaged sidewalk,Medium,18.093861,73.246034
+333,2025-10-09 15:21:00,Sanitation,Illegal dumping observed,Medium,18.126536,73.131056
+334,2025-10-13 14:34:00,Sanitation,Clogged drain,Medium,18.111041,72.938649
+335,2025-10-21 14:53:00,Parks & Recreation,Park lights non-functional,High,18.105701,72.811788
+336,2025-10-13 17:07:00,Water Supply,No water supply since morning,Medium,18.454062,74.376627
+337,2025-10-28 15:25:00,Parks & Recreation,Park lights non-functional,Low,19.357116,73.433497
+338,2025-10-12 11:49:00,Parks & Recreation,Damaged playground equipment,Low,19.172478,73.231972
+339,2025-10-26 16:00:00,Roads,Road blockade due to debris,High,18.166428,73.37042
+340,2025-10-20 11:34:00,Water Supply,No water supply since morning,Medium,19.461812,73.63981
+341,2025-10-02 13:11:00,Electricity,Flickering power in neighborhood,Medium,19.133959,74.264496
+342,2025-10-14 08:51:00,Roads,Road blockade due to debris,Low,19.11427,74.274279
+343,2025-10-22 10:59:00,Water Supply,No water supply since morning,Medium,18.987749,74.356455
+344,2025-10-27 14:44:00,Electricity,Fallen power line,Low,18.725544,74.327299
+345,2025-10-23 15:39:00,Parks & Recreation,Unmaintained green space,High,18.66252,73.656782
+346,2025-10-14 17:49:00,Roads,Road blockade due to debris,Medium,18.355842,73.261965
+347,2025-10-08 11:16:00,Roads,Road blockade due to debris,Medium,19.391656,73.24413
+348,2025-10-15 11:38:00,Electricity,Fallen power line,Low,18.483081,72.787856
+349,2025-10-25 12:35:00,Roads,Road blockade due to debris,Low,18.894669,74.287355
+350,2025-10-15 15:13:00,Roads,Road blockade due to debris,Medium,18.373611,74.104301
+351,2025-10-18 15:57:00,Roads,Damaged sidewalk,Medium,18.767619,73.207897
+352,2025-10-14 13:46:00,Water Supply,Leakage on main street,High,18.295501,74.162539
+353,2025-10-28 16:29:00,Water Supply,Water contamination report,Medium,19.032947,73.339556
+354,2025-10-11 14:03:00,Water Supply,Leakage on main street,Medium,18.239569,73.032254
+355,2025-10-24 16:28:00,Electricity,Fallen power line,Low,19.279126,73.46343
+356,2025-10-08 09:46:00,Water Supply,No water supply since morning,High,19.484911,74.209026
+357,2025-10-19 16:21:00,Parks & Recreation,Damaged playground equipment,Low,18.352389,72.582499
+358,2025-10-04 12:05:00,Parks & Recreation,Park lights non-functional,Low,19.158251,73.651536
+359,2025-10-30 17:33:00,Roads,Damaged sidewalk,Medium,19.363067,73.680748
+360,2025-10-08 10:08:00,Roads,Damaged sidewalk,Medium,18.455234,73.968843
+361,2025-10-09 11:05:00,Roads,Road blockade due to debris,Medium,19.428388,72.89775
+362,2025-10-19 08:22:00,Parks & Recreation,Unmaintained green space,Medium,18.189295,74.130237
+363,2025-10-09 09:57:00,Parks & Recreation,Unmaintained green space,Low,19.187674,73.972977
+364,2025-10-01 10:52:00,Roads,Road blockade due to debris,Medium,18.005062,72.754313
+365,2025-10-16 16:02:00,Parks & Recreation,Park lights non-functional,Low,19.004714,73.413251
+366,2025-10-22 15:14:00,Electricity,Fallen power line,Low,18.150575,73.480287
+367,2025-10-12 16:37:00,Electricity,Street light not working,Medium,18.588699,72.850402
+368,2025-10-04 17:58:00,Water Supply,No water supply since morning,Low,19.07356,74.335847
+369,2025-10-15 10:27:00,Electricity,Fallen power line,Medium,19.142051,72.855284
+370,2025-10-03 12:28:00,Electricity,Flickering power in neighborhood,Medium,18.516485,74.225176
+371,2025-10-24 14:35:00,Roads,Road blockade due to debris,Low,18.853848,73.812127
+372,2025-10-10 17:28:00,Parks & Recreation,Unmaintained green space,Low,18.315202,72.906893
+373,2025-10-03 09:34:00,Sanitation,Garbage not collected for a week,Medium,18.699847,73.806894
+374,2025-10-02 11:14:00,Roads,Pothole near school,Medium,18.609739,74.275061
+375,2025-10-18 11:33:00,Roads,Pothole near school,Medium,18.287197,74.218556
+376,2025-10-17 10:38:00,Roads,Road blockade due to debris,Medium,18.95855,73.363273
+377,2025-10-13 12:43:00,Sanitation,Clogged drain,Low,19.183019,73.201584
+378,2025-10-25 11:44:00,Water Supply,Leakage on main street,Medium,18.776921,72.92408
+379,2025-10-01 10:15:00,Sanitation,Illegal dumping observed,High,18.414097,73.797913
+380,2025-10-13 13:47:00,Electricity,Fallen power line,High,18.18673,73.492685
+381,2025-10-20 17:41:00,Water Supply,Leakage on main street,Low,18.614037,74.259052
+382,2025-10-28 08:31:00,Electricity,Street light not working,Medium,18.950031,73.978418
+383,2025-10-05 09:32:00,Electricity,Flickering power in neighborhood,Low,18.113377,74.307345
+384,2025-10-27 11:12:00,Electricity,Fallen power line,Low,18.976538,73.975287
+385,2025-10-13 08:09:00,Sanitation,Garbage not collected for a week,Medium,18.991817,73.553429
+386,2025-10-27 17:31:00,Electricity,Street light not working,Medium,19.314267,73.358783
+387,2025-10-24 11:07:00,Roads,Pothole near school,Medium,19.273392,73.347633
+388,2025-10-06 08:19:00,Sanitation,Clogged drain,High,18.550007,74.353455
+389,2025-10-04 15:15:00,Parks & Recreation,Damaged playground equipment,High,19.065963,74.10808
+390,2025-10-03 15:52:00,Electricity,Fallen power line,Medium,19.054073,74.085999
+391,2025-10-06 11:40:00,Water Supply,No water supply since morning,Low,19.422203,74.059306
+392,2025-10-06 15:41:00,Roads,Pothole near school,Medium,19.060454,73.849626
+393,2025-10-28 10:55:00,Roads,Road blockade due to debris,Low,18.101871,73.058877
+394,2025-10-09 17:29:00,Parks & Recreation,Park lights non-functional,Medium,19.487934,73.916494
+395,2025-10-05 15:03:00,Electricity,Flickering power in neighborhood,Medium,18.611691,74.311141
+396,2025-10-10 11:13:00,Water Supply,No water supply since morning,Low,18.371786,73.545779
+397,2025-10-15 13:55:00,Water Supply,Water contamination report,Medium,18.778908,74.458338
+398,2025-10-23 13:45:00,Parks & Recreation,Unmaintained green space,Medium,18.582359,72.900866
+399,2025-10-04 15:41:00,Electricity,Street light not working,Low,18.392735,74.049937
+400,2025-10-03 13:09:00,Sanitation,Garbage not collected for a week,Medium,18.964984,72.603938
+401,2025-10-25 12:32:00,Parks & Recreation,Park lights non-functional,Medium,19.264431,73.987186
+402,2025-10-07 10:53:00,Water Supply,Water contamination report,High,18.57734,73.014195
+403,2025-10-16 15:16:00,Parks & Recreation,Park lights non-functional,High,18.746113,74.400974
+404,2025-10-06 08:13:00,Electricity,Flickering power in neighborhood,Low,19.291126,72.718536
+405,2025-10-01 14:19:00,Electricity,Fallen power line,Low,18.288808,73.320608
+406,2025-10-30 10:41:00,Water Supply,Leakage on main street,Medium,19.081531,73.444758
+407,2025-10-06 13:27:00,Sanitation,Illegal dumping observed,Medium,18.158351,72.675594
+408,2025-10-26 15:08:00,Water Supply,Leakage on main street,Low,18.78735,73.901583
+409,2025-10-21 15:15:00,Sanitation,Clogged drain,Low,18.632785,73.850625
+410,2025-10-10 17:10:00,Electricity,Flickering power in neighborhood,Medium,18.836854,73.855557
+411,2025-10-01 10:00:00,Water Supply,Water contamination report,Low,18.678502,72.896793
+412,2025-10-12 17:29:00,Electricity,Fallen power line,High,18.674588,72.529708
+413,2025-10-01 09:21:00,Roads,Damaged sidewalk,Medium,18.751531,73.102477
+414,2025-10-03 09:34:00,Parks & Recreation,Park lights non-functional,Low,18.368752,74.173338
+415,2025-10-22 10:28:00,Roads,Pothole near school,Medium,19.356351,73.888559
+416,2025-10-15 17:01:00,Parks & Recreation,Park lights non-functional,High,18.184052,73.119609
+417,2025-10-21 14:13:00,Electricity,Fallen power line,Medium,18.694674,73.689166
+418,2025-10-18 13:11:00,Sanitation,Clogged drain,Low,18.883523,74.440969
+419,2025-10-20 11:18:00,Electricity,Fallen power line,Medium,18.943328,74.02668
+420,2025-10-15 12:22:00,Electricity,Street light not working,High,18.333361,73.424548
+421,2025-10-21 08:23:00,Sanitation,Clogged drain,Low,19.054435,73.851207
+422,2025-10-01 09:29:00,Parks & Recreation,Damaged playground equipment,High,18.58301,73.900029
+423,2025-10-11 16:08:00,Water Supply,Water contamination report,Medium,18.700493,74.406908
+424,2025-10-15 13:00:00,Roads,Road blockade due to debris,Medium,18.735531,72.76305
+425,2025-10-03 16:44:00,Parks & Recreation,Park lights non-functional,Low,18.311793,73.356147
+426,2025-10-18 15:45:00,Electricity,Fallen power line,Low,18.296525,73.09033
+427,2025-10-25 14:28:00,Parks & Recreation,Unmaintained green space,Medium,19.473661,72.672148
+428,2025-10-13 14:24:00,Roads,Damaged sidewalk,Medium,18.600813,72.501318
+429,2025-10-14 12:43:00,Sanitation,Garbage not collected for a week,Medium,19.236796,74.335878
+430,2025-10-13 17:46:00,Parks & Recreation,Park lights non-functional,Medium,18.554512,73.337481
+431,2025-10-30 17:41:00,Roads,Damaged sidewalk,High,18.658727,73.381733
+432,2025-10-03 11:21:00,Roads,Damaged sidewalk,High,18.508286,72.8661
+433,2025-10-29 15:56:00,Water Supply,Leakage on main street,High,18.905917,72.95767
+434,2025-10-06 08:41:00,Parks & Recreation,Unmaintained green space,Medium,18.647255,73.07888
+435,2025-10-15 12:34:00,Water Supply,Leakage on main street,Medium,19.343589,72.713222
+436,2025-10-04 15:52:00,Electricity,Fallen power line,Low,18.452711,72.564613
+437,2025-10-27 12:21:00,Sanitation,Garbage not collected for a week,High,18.976249,74.157906
+438,2025-10-08 15:40:00,Electricity,Fallen power line,Low,18.566424,72.636086
+439,2025-10-02 08:50:00,Water Supply,Water contamination report,High,18.463249,72.502345
+440,2025-10-20 08:09:00,Parks & Recreation,Damaged playground equipment,Medium,18.121871,72.778506
+441,2025-10-31 16:08:00,Water Supply,Leakage on main street,Low,18.911289,73.822079
+442,2025-10-07 09:59:00,Sanitation,Illegal dumping observed,High,18.71037,74.219197
+443,2025-10-17 10:34:00,Water Supply,Leakage on main street,Low,19.094803,73.344268
+444,2025-10-05 09:40:00,Parks & Recreation,Damaged playground equipment,Low,18.829565,72.688519
+445,2025-10-26 14:57:00,Electricity,Fallen power line,Low,18.84254,73.643726
+446,2025-10-13 12:15:00,Parks & Recreation,Unmaintained green space,High,18.907426,74.199631
+447,2025-10-31 13:47:00,Electricity,Flickering power in neighborhood,Medium,18.031448,72.502478
+448,2025-10-09 11:41:00,Roads,Pothole near school,High,18.734328,73.467808
+449,2025-10-05 12:16:00,Roads,Pothole near school,High,18.984805,74.126462
+450,2025-10-11 11:40:00,Water Supply,No water supply since morning,Low,18.216917,73.002627
+451,2025-10-07 09:39:00,Roads,Damaged sidewalk,Low,19.154167,74.414843
+452,2025-10-25 14:35:00,Electricity,Street light not working,Low,18.347353,72.567496
+453,2025-10-25 14:34:00,Electricity,Street light not working,Low,18.070012,74.461944
+454,2025-10-24 09:21:00,Sanitation,Garbage not collected for a week,Low,18.400001,73.811302
+455,2025-10-30 10:16:00,Electricity,Fallen power line,Low,18.256429,72.898495
+456,2025-10-19 17:37:00,Water Supply,Water contamination report,Medium,19.040667,72.585263
+457,2025-10-01 08:51:00,Parks & Recreation,Damaged playground equipment,Medium,19.334754,72.968409
+458,2025-10-18 11:58:00,Water Supply,No water supply since morning,Medium,19.286503,72.878946
+459,2025-10-29 16:42:00,Sanitation,Clogged drain,Low,18.502131,74.143927
+460,2025-10-12 09:49:00,Water Supply,Water contamination report,Medium,18.719841,74.302103
+461,2025-10-24 14:48:00,Parks & Recreation,Damaged playground equipment,Low,19.396478,73.729283
+462,2025-10-16 14:48:00,Sanitation,Garbage not collected for a week,High,18.643297,74.498888
+463,2025-10-27 11:16:00,Water Supply,No water supply since morning,Low,19.362821,72.504438
+464,2025-10-30 10:06:00,Roads,Damaged sidewalk,High,18.384912,74.305648
+465,2025-10-14 13:34:00,Sanitation,Illegal dumping observed,Medium,18.37621,73.130242
+466,2025-10-09 12:24:00,Parks & Recreation,Unmaintained green space,High,19.40593,73.527482
+467,2025-10-17 11:27:00,Electricity,Fallen power line,Low,18.610014,72.572502
+468,2025-10-01 14:35:00,Water Supply,Water contamination report,Low,18.038175,73.485641
+469,2025-10-26 14:34:00,Electricity,Fallen power line,Medium,18.667357,73.988182
+470,2025-10-23 15:37:00,Roads,Road blockade due to debris,Low,18.910748,72.920496
+471,2025-10-14 09:14:00,Water Supply,Leakage on main street,Low,18.679735,72.757431
+472,2025-10-30 15:20:00,Sanitation,Clogged drain,Low,18.733111,74.411318
+473,2025-10-09 15:21:00,Parks & Recreation,Unmaintained green space,Low,18.336111,72.589844
+474,2025-10-30 16:16:00,Sanitation,Clogged drain,Low,18.892747,73.113435
+475,2025-10-05 16:08:00,Roads,Pothole near school,Low,18.291846,72.553955
+476,2025-10-16 09:36:00,Parks & Recreation,Damaged playground equipment,High,18.699681,72.770762
+477,2025-10-09 09:19:00,Electricity,Street light not working,Low,19.369255,72.585518
+478,2025-10-04 09:39:00,Water Supply,Water contamination report,Low,19.494369,73.230584
+479,2025-10-25 08:42:00,Sanitation,Illegal dumping observed,Medium,18.320924,73.335522
+480,2025-10-09 15:27:00,Sanitation,Illegal dumping observed,High,19.214667,74.023922
+481,2025-10-21 11:17:00,Water Supply,Leakage on main street,Medium,18.544319,74.099798
+482,2025-10-15 13:15:00,Roads,Damaged sidewalk,Low,19.05734,74.106617
+483,2025-10-16 10:06:00,Parks & Recreation,Unmaintained green space,Low,19.093757,72.848387
+484,2025-10-22 13:10:00,Electricity,Flickering power in neighborhood,Low,19.498393,72.724903
+485,2025-10-11 13:19:00,Electricity,Street light not working,High,18.974382,73.778833
+486,2025-10-06 16:10:00,Sanitation,Garbage not collected for a week,High,18.785517,73.019212
+487,2025-10-23 09:03:00,Sanitation,Clogged drain,High,18.695793,73.826361
+488,2025-10-23 10:03:00,Water Supply,Leakage on main street,Low,19.252397,73.715025
+489,2025-10-04 12:05:00,Parks & Recreation,Unmaintained green space,High,19.280082,74.299288
+490,2025-10-28 14:57:00,Roads,Road blockade due to debris,Medium,18.400245,73.175433
+491,2025-10-06 14:16:00,Roads,Pothole near school,Low,18.128509,73.774583
+492,2025-10-27 13:43:00,Sanitation,Clogged drain,Low,18.498021,73.348668
+493,2025-10-26 12:29:00,Water Supply,Leakage on main street,Medium,18.749248,74.358805
+494,2025-10-03 10:58:00,Sanitation,Illegal dumping observed,High,19.127425,72.742159
+495,2025-10-05 11:15:00,Parks & Recreation,Unmaintained green space,Medium,18.744871,73.186942
+496,2025-10-21 15:57:00,Parks & Recreation,Unmaintained green space,Low,19.16053,72.536452
+497,2025-10-22 17:58:00,Roads,Damaged sidewalk,High,18.822651,74.166484
+498,2025-10-10 15:11:00,Water Supply,Leakage on main street,Medium,19.474023,73.622943
+499,2025-10-19 16:47:00,Sanitation,Illegal dumping observed,Medium,19.194063,72.953478
+500,2025-10-11 15:09:00,Parks & Recreation,Unmaintained green space,Low,18.039078,73.976828

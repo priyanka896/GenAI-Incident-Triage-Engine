@@ -1,0 +1,501 @@
+timestamp,asset_id,asset_type,metric_value,status
+2025-10-28 14:52:54,CC-7890,CCTV Camera,0.58,Degraded
+2025-10-26 12:20:42,Tr-8961,Transformer,0.88,Healthy
+2025-10-05 09:23:54,Tr-8808,Transformer,0.87,Healthy
+2025-10-10 09:22:28,Wa-9268,Water Pump Station,0.58,Degraded
+2025-10-11 17:15:02,CC-9725,CCTV Camera,0.59,Degraded
+2025-10-26 16:34:52,Wa-6409,Water Pump Station,0.89,Healthy
+2025-10-22 08:22:57,Tr-8113,Transformer,0.68,Maintenance
+2025-10-07 17:01:46,CC-8253,CCTV Camera,0.97,Healthy
+2025-10-11 16:56:13,Tr-9989,Traffic Light,0.53,Degraded
+2025-10-11 16:05:12,Tr-9086,Traffic Light,0.57,Maintenance
+2025-10-13 13:21:08,Tr-4130,Traffic Light,0.46,Failure
+2025-10-22 12:09:43,Wa-4909,Water Pump Station,0.96,Healthy
+2025-10-02 10:01:40,CC-2494,CCTV Camera,0.8,Degraded
+2025-10-26 11:32:31,CC-2786,CCTV Camera,0.67,Maintenance
+2025-10-15 15:25:52,Tr-9969,Transformer,0.74,Maintenance
+2025-10-11 11:11:16,Wa-9965,Water Pump Station,0.63,Maintenance
+2025-10-06 13:16:49,Wa-6194,Water Pump Station,0.92,Healthy
+2025-10-27 17:12:15,Wa-4102,Water Pump Station,0.96,Healthy
+2025-10-20 16:45:53,Tr-8807,Transformer,0.53,Degraded
+2025-10-01 11:07:42,Wa-3450,Water Pump Station,0.75,Degraded
+2025-10-01 16:11:41,Tr-9549,Transformer,0.96,Healthy
+2025-10-10 13:21:23,CC-5509,CCTV Camera,0.65,Maintenance
+2025-10-13 11:19:12,Tr-2349,Transformer,0.68,Maintenance
+2025-10-23 11:35:35,Wa-6493,Water Pump Station,0.42,Failure
+2025-10-04 17:43:03,Tr-5440,Traffic Light,0.06,Failure
+2025-10-19 16:32:14,Tr-7095,Transformer,0.6,Degraded
+2025-10-18 08:13:56,Wa-2648,Water Pump Station,0.96,Healthy
+2025-10-25 14:57:03,Tr-9752,Traffic Light,0.92,Healthy
+2025-10-28 16:50:52,Tr-1437,Transformer,0.82,Healthy
+2025-10-20 11:21:55,Tr-2961,Transformer,0.53,Maintenance
+2025-10-29 17:37:37,Tr-1354,Traffic Light,0.79,Degraded
+2025-10-22 07:44:10,Tr-8851,Traffic Light,0.72,Degraded
+2025-10-16 16:25:44,Wa-1373,Water Pump Station,0.69,Maintenance
+2025-10-26 14:02:33,Tr-4618,Traffic Light,0.81,Healthy
+2025-10-01 14:47:22,Tr-8144,Transformer,0.09,Failure
+2025-10-27 16:15:53,Wa-8653,Water Pump Station,0.02,Failure
+2025-10-09 10:08:06,CC-4266,CCTV Camera,0.85,Healthy
+2025-10-26 09:38:53,Tr-3775,Transformer,0.94,Healthy
+2025-10-04 09:57:48,Wa-1951,Water Pump Station,0.39,Failure
+2025-10-31 13:23:06,Wa-3653,Water Pump Station,0.87,Healthy
+2025-10-21 15:10:54,Tr-8246,Traffic Light,0.93,Healthy
+2025-10-10 08:04:31,CC-7715,CCTV Camera,0.69,Maintenance
+2025-10-11 16:32:50,Wa-5111,Water Pump Station,0.08,Failure
+2025-10-13 15:41:07,Tr-8503,Transformer,0.6,Degraded
+2025-10-06 16:48:53,Wa-9918,Water Pump Station,0.54,Maintenance
+2025-10-04 16:37:02,Tr-5716,Transformer,0.68,Maintenance
+2025-10-04 14:42:30,Tr-7357,Transformer,0.37,Failure
+2025-10-05 10:20:55,Tr-4150,Traffic Light,0.94,Healthy
+2025-10-26 09:10:17,Tr-4655,Traffic Light,0.61,Maintenance
+2025-10-10 15:56:33,Tr-7590,Traffic Light,0.97,Healthy
+2025-10-08 12:24:41,Tr-3714,Traffic Light,0.22,Failure
+2025-10-28 09:00:15,Wa-8313,Water Pump Station,0.91,Healthy
+2025-10-09 11:44:45,Wa-1001,Water Pump Station,0.98,Healthy
+2025-10-12 16:25:24,CC-6112,CCTV Camera,0.97,Healthy
+2025-10-13 14:31:41,CC-4080,CCTV Camera,0.91,Healthy
+2025-10-16 11:32:30,Wa-1241,Water Pump Station,0.2,Failure
+2025-10-11 12:32:09,Tr-1055,Transformer,0.84,Healthy
+2025-10-13 17:01:33,Tr-4120,Traffic Light,0.82,Healthy
+2025-10-03 10:50:26,Wa-5954,Water Pump Station,0.14,Failure
+2025-10-06 10:26:29,Tr-8792,Traffic Light,0.69,Maintenance
+2025-10-19 09:20:54,Tr-8421,Transformer,0.96,Healthy
+2025-10-07 12:27:41,Tr-3185,Transformer,0.93,Healthy
+2025-10-13 17:08:16,Tr-3530,Traffic Light,0.86,Healthy
+2025-10-17 17:03:43,Tr-1693,Transformer,0.56,Degraded
+2025-10-25 13:56:52,Tr-7011,Transformer,0.47,Failure
+2025-10-24 12:58:25,Wa-9101,Water Pump Station,0.69,Maintenance
+2025-10-23 09:13:36,Tr-4405,Traffic Light,0.68,Maintenance
+2025-10-02 09:23:02,Tr-3474,Traffic Light,0.14,Failure
+2025-10-04 16:13:26,Tr-7016,Transformer,0.6,Degraded
+2025-10-29 08:28:45,Tr-5417,Traffic Light,0.83,Healthy
+2025-10-22 16:56:51,CC-7468,CCTV Camera,1.0,Healthy
+2025-10-22 09:19:21,CC-2882,CCTV Camera,0.9,Healthy
+2025-10-15 13:24:50,Wa-1790,Water Pump Station,0.86,Healthy
+2025-10-01 16:32:25,Tr-7605,Transformer,0.97,Healthy
+2025-10-29 16:46:50,CC-2780,CCTV Camera,0.67,Degraded
+2025-10-29 17:20:27,Wa-8766,Water Pump Station,0.75,Maintenance
+2025-10-24 08:53:58,Tr-8849,Traffic Light,0.82,Healthy
+2025-10-31 13:26:37,Tr-7988,Transformer,0.59,Degraded
+2025-10-12 13:06:38,Wa-3728,Water Pump Station,0.93,Healthy
+2025-10-07 07:48:46,Wa-2424,Water Pump Station,0.03,Failure
+2025-10-20 11:30:41,Tr-4621,Traffic Light,0.62,Degraded
+2025-10-09 10:04:21,CC-9503,CCTV Camera,0.63,Maintenance
+2025-10-29 16:25:01,Tr-4559,Transformer,0.53,Maintenance
+2025-10-10 10:18:28,CC-3729,CCTV Camera,0.89,Healthy
+2025-10-25 09:49:53,Tr-2884,Transformer,0.81,Healthy
+2025-10-13 09:27:46,Wa-9614,Water Pump Station,0.73,Maintenance
+2025-10-05 17:11:08,Tr-2948,Transformer,0.62,Maintenance
+2025-10-21 15:40:08,Tr-4537,Traffic Light,0.31,Failure
+2025-10-15 11:17:41,Tr-4243,Transformer,0.23,Failure
+2025-10-04 16:35:42,Tr-2716,Traffic Light,0.54,Maintenance
+2025-10-14 10:07:00,CC-9539,CCTV Camera,0.9,Healthy
+2025-10-21 09:13:47,CC-9169,CCTV Camera,0.32,Failure
+2025-10-01 11:10:43,Wa-9893,Water Pump Station,0.5,Degraded
+2025-10-25 14:45:38,Tr-1581,Transformer,0.76,Degraded
+2025-10-01 09:19:06,Wa-7209,Water Pump Station,0.72,Maintenance
+2025-10-13 14:38:41,Tr-2087,Transformer,0.65,Degraded
+2025-10-20 08:52:30,Wa-2087,Water Pump Station,0.54,Degraded
+2025-10-08 09:44:09,Tr-8349,Traffic Light,0.76,Maintenance
+2025-10-07 16:10:17,CC-7083,CCTV Camera,0.77,Maintenance
+2025-10-09 12:03:12,Tr-1550,Transformer,0.91,Healthy
+2025-10-13 14:35:31,CC-4376,CCTV Camera,0.66,Maintenance
+2025-10-24 13:58:56,CC-7366,CCTV Camera,0.92,Healthy
+2025-10-02 15:06:22,Tr-1003,Traffic Light,0.59,Degraded
+2025-10-12 15:12:53,Wa-6450,Water Pump Station,0.81,Healthy
+2025-10-31 13:56:13,Tr-5961,Transformer,0.39,Failure
+2025-10-21 12:24:41,CC-2020,CCTV Camera,0.83,Healthy
+2025-10-15 12:56:27,Tr-5703,Traffic Light,0.52,Maintenance
+2025-10-15 10:08:34,Tr-8886,Transformer,0.54,Maintenance
+2025-10-13 14:52:49,Wa-6779,Water Pump Station,0.88,Healthy
+2025-10-07 17:21:55,Wa-7335,Water Pump Station,0.23,Failure
+2025-10-12 08:26:03,CC-3480,CCTV Camera,0.8,Healthy
+2025-10-17 12:42:39,Tr-6306,Transformer,0.71,Degraded
+2025-10-31 16:33:06,Wa-7281,Water Pump Station,0.53,Maintenance
+2025-10-11 11:55:03,Wa-8654,Water Pump Station,0.31,Failure
+2025-10-05 09:46:27,Tr-5855,Traffic Light,0.79,Degraded
+2025-10-08 14:50:17,Tr-5813,Transformer,0.46,Failure
+2025-10-11 16:11:54,Tr-9503,Transformer,0.43,Failure
+2025-10-07 16:05:00,Tr-7422,Traffic Light,0.61,Maintenance
+2025-10-17 13:51:08,CC-6841,CCTV Camera,0.96,Healthy
+2025-10-18 08:31:49,Tr-1655,Traffic Light,0.9,Healthy
+2025-10-16 15:12:44,Wa-9520,Water Pump Station,0.33,Failure
+2025-10-14 11:32:17,Wa-2531,Water Pump Station,0.96,Healthy
+2025-10-13 07:50:56,CC-9308,CCTV Camera,0.78,Maintenance
+2025-10-12 13:25:48,Wa-7979,Water Pump Station,0.98,Healthy
+2025-10-23 12:25:46,Tr-2716,Traffic Light,0.88,Healthy
+2025-10-08 07:39:05,CC-3558,CCTV Camera,0.37,Failure
+2025-10-10 08:39:09,CC-8062,CCTV Camera,0.51,Maintenance
+2025-10-09 09:41:31,Tr-2286,Transformer,0.52,Maintenance
+2025-10-10 11:32:44,Tr-6659,Traffic Light,0.55,Maintenance
+2025-10-21 14:57:46,Tr-2155,Transformer,0.3,Failure
+2025-10-12 17:18:24,Wa-4407,Water Pump Station,0.8,Healthy
+2025-10-03 10:33:53,Tr-5804,Traffic Light,0.71,Maintenance
+2025-10-24 10:45:30,Tr-4063,Traffic Light,0.53,Maintenance
+2025-10-29 09:23:12,Wa-5230,Water Pump Station,0.51,Degraded
+2025-10-31 11:24:58,CC-6488,CCTV Camera,0.89,Healthy
+2025-10-18 13:37:19,Wa-5855,Water Pump Station,0.47,Failure
+2025-10-11 11:59:30,Wa-4015,Water Pump Station,0.3,Failure
+2025-10-11 15:22:01,Tr-9736,Traffic Light,0.55,Maintenance
+2025-10-19 15:49:34,Tr-4650,Traffic Light,0.16,Failure
+2025-10-02 08:03:52,Tr-4877,Transformer,0.95,Healthy
+2025-10-05 10:59:24,Tr-7877,Transformer,0.76,Degraded
+2025-10-26 13:58:59,Wa-7452,Water Pump Station,0.82,Healthy
+2025-10-22 15:46:27,Wa-3163,Water Pump Station,0.88,Healthy
+2025-10-01 15:43:46,Wa-7917,Water Pump Station,0.69,Maintenance
+2025-10-11 11:26:56,Tr-8287,Traffic Light,0.93,Healthy
+2025-10-24 16:08:28,Wa-7167,Water Pump Station,0.88,Healthy
+2025-10-15 10:41:08,Tr-8230,Transformer,0.61,Degraded
+2025-10-01 08:19:54,Wa-2491,Water Pump Station,0.74,Degraded
+2025-10-12 10:29:39,Tr-3521,Traffic Light,0.78,Maintenance
+2025-10-10 16:57:57,Tr-7909,Transformer,0.55,Maintenance
+2025-10-18 12:34:54,Wa-6576,Water Pump Station,0.61,Degraded
+2025-10-02 08:07:07,Wa-8918,Water Pump Station,0.95,Healthy
+2025-10-10 11:38:22,Tr-8357,Traffic Light,0.5,Maintenance
+2025-10-07 09:16:39,Tr-2875,Transformer,0.66,Maintenance
+2025-10-12 11:01:58,CC-8723,CCTV Camera,0.82,Healthy
+2025-10-02 16:40:28,Tr-4807,Transformer,0.58,Maintenance
+2025-10-13 16:59:46,Tr-5424,Traffic Light,0.98,Healthy
+2025-10-11 08:43:02,Tr-5203,Traffic Light,0.88,Healthy
+2025-10-07 09:29:09,CC-2671,CCTV Camera,0.95,Healthy
+2025-10-22 10:20:22,Wa-5643,Water Pump Station,0.97,Healthy
+2025-10-14 12:06:55,Tr-2396,Transformer,0.52,Degraded
+2025-10-31 12:21:00,Tr-9743,Transformer,0.54,Maintenance
+2025-10-14 10:43:46,Wa-3679,Water Pump Station,0.03,Failure
+2025-10-19 14:07:21,Tr-9516,Transformer,0.67,Degraded
+2025-10-26 11:54:32,Wa-9706,Water Pump Station,0.62,Degraded
+2025-10-21 13:19:24,Tr-5788,Transformer,0.89,Healthy
+2025-10-09 10:49:56,Wa-3020,Water Pump Station,0.61,Degraded
+2025-10-28 16:47:24,Wa-3286,Water Pump Station,0.28,Failure
+2025-10-21 14:15:20,Tr-6800,Transformer,0.93,Healthy
+2025-10-03 12:05:14,Wa-8810,Water Pump Station,0.9,Healthy
+2025-10-14 14:18:06,Wa-6214,Water Pump Station,0.7,Maintenance
+2025-10-23 12:23:49,Wa-8274,Water Pump Station,0.54,Maintenance
+2025-10-19 13:07:43,Wa-1858,Water Pump Station,0.44,Failure
+2025-10-02 13:29:41,Wa-1418,Water Pump Station,0.64,Maintenance
+2025-10-21 12:22:58,Tr-2333,Traffic Light,0.34,Failure
+2025-10-06 10:27:15,Tr-6919,Traffic Light,0.81,Healthy
+2025-10-24 15:47:28,Tr-5792,Transformer,0.95,Healthy
+2025-10-12 17:51:37,Wa-3304,Water Pump Station,0.56,Maintenance
+2025-10-09 13:36:34,Tr-8551,Transformer,0.62,Maintenance
+2025-10-25 15:15:04,CC-8131,CCTV Camera,0.83,Healthy
+2025-10-29 13:36:15,Wa-9587,Water Pump Station,0.86,Healthy
+2025-10-15 16:06:32,Tr-4060,Transformer,0.22,Failure
+2025-10-03 16:17:35,Wa-8000,Water Pump Station,0.4,Failure
+2025-10-11 14:31:59,Tr-4607,Transformer,0.4,Failure
+2025-10-24 09:34:23,Tr-4346,Transformer,0.29,Failure
+2025-10-10 14:33:46,Wa-7362,Water Pump Station,0.81,Healthy
+2025-10-27 09:07:50,Wa-4059,Water Pump Station,0.52,Maintenance
+2025-10-22 12:40:57,Wa-5874,Water Pump Station,0.31,Failure
+2025-10-31 13:58:06,Tr-5660,Transformer,0.39,Failure
+2025-10-20 08:19:23,CC-8508,CCTV Camera,0.81,Healthy
+2025-10-28 08:36:28,CC-9031,CCTV Camera,0.13,Failure
+2025-10-03 12:54:52,Wa-4529,Water Pump Station,0.87,Healthy
+2025-10-26 11:32:15,Wa-1717,Water Pump Station,0.55,Degraded
+2025-10-06 10:48:12,CC-1116,CCTV Camera,0.83,Healthy
+2025-10-11 08:23:10,Wa-7496,Water Pump Station,0.64,Degraded
+2025-10-31 11:14:02,Tr-2402,Traffic Light,0.96,Healthy
+2025-10-05 14:28:11,Wa-9780,Water Pump Station,0.89,Healthy
+2025-10-26 09:42:01,Wa-5186,Water Pump Station,0.81,Healthy
+2025-10-25 09:29:36,Wa-7040,Water Pump Station,0.82,Healthy
+2025-10-01 14:17:34,Wa-4303,Water Pump Station,0.7,Maintenance
+2025-10-17 11:21:23,Tr-9468,Transformer,0.43,Failure
+2025-10-04 14:31:56,CC-6635,CCTV Camera,0.51,Degraded
+2025-10-21 15:24:54,Tr-8551,Traffic Light,0.9,Healthy
+2025-10-12 16:02:26,Tr-7752,Traffic Light,1.0,Healthy
+2025-10-20 13:41:27,CC-2935,CCTV Camera,0.04,Failure
+2025-10-23 13:45:34,Tr-3519,Traffic Light,0.88,Healthy
+2025-10-23 15:34:55,CC-2263,CCTV Camera,0.41,Failure
+2025-10-30 12:33:01,Tr-3955,Traffic Light,0.85,Healthy
+2025-10-25 15:31:49,Wa-5571,Water Pump Station,0.47,Failure
+2025-10-19 13:07:29,CC-2757,CCTV Camera,0.28,Failure
+2025-10-14 12:25:32,Tr-5860,Traffic Light,0.39,Failure
+2025-10-01 14:14:06,Tr-5465,Transformer,0.12,Failure
+2025-10-25 14:20:58,Tr-3827,Traffic Light,0.37,Failure
+2025-10-17 10:22:26,Wa-5662,Water Pump Station,0.98,Healthy
+2025-10-26 13:16:23,Wa-9774,Water Pump Station,0.9,Healthy
+2025-10-21 15:59:04,Tr-7302,Traffic Light,0.32,Failure
+2025-10-18 12:01:23,Tr-4761,Transformer,0.57,Maintenance
+2025-10-14 14:44:20,Wa-2061,Water Pump Station,0.9,Healthy
+2025-10-21 15:55:34,Tr-7114,Traffic Light,0.93,Healthy
+2025-10-23 17:14:27,Wa-3249,Water Pump Station,0.96,Healthy
+2025-10-27 14:51:43,Wa-6372,Water Pump Station,0.68,Maintenance
+2025-10-16 12:03:50,Tr-7481,Traffic Light,0.79,Degraded
+2025-10-17 10:04:54,Tr-3221,Traffic Light,0.73,Degraded
+2025-10-22 13:55:01,Wa-4497,Water Pump Station,0.12,Failure
+2025-10-19 08:37:02,Wa-7301,Water Pump Station,0.87,Healthy
+2025-10-28 14:33:46,CC-2769,CCTV Camera,0.31,Failure
+2025-10-21 14:21:04,Tr-9625,Transformer,0.65,Maintenance
+2025-10-20 10:10:07,Wa-1207,Water Pump Station,0.67,Degraded
+2025-10-03 12:05:22,CC-8879,CCTV Camera,0.71,Maintenance
+2025-10-22 08:43:36,CC-3251,CCTV Camera,0.71,Maintenance
+2025-10-18 17:15:14,Wa-5779,Water Pump Station,0.78,Maintenance
+2025-10-04 08:02:02,Tr-6163,Traffic Light,0.95,Healthy
+2025-10-16 13:17:25,Tr-6622,Transformer,0.43,Failure
+2025-10-12 14:49:19,CC-6638,CCTV Camera,0.59,Degraded
+2025-10-22 13:21:31,Tr-3477,Traffic Light,0.18,Failure
+2025-10-17 14:47:04,Tr-2004,Transformer,0.8,Healthy
+2025-10-13 12:47:18,Wa-1203,Water Pump Station,0.85,Healthy
+2025-10-30 11:45:51,Tr-2022,Traffic Light,0.79,Maintenance
+2025-10-13 15:11:41,Wa-4547,Water Pump Station,0.89,Healthy
+2025-10-10 15:06:26,Tr-6866,Transformer,0.86,Healthy
+2025-10-29 11:40:00,CC-7269,CCTV Camera,0.62,Degraded
+2025-10-07 13:12:35,Wa-9744,Water Pump Station,0.91,Healthy
+2025-10-02 08:20:38,Tr-3008,Traffic Light,0.2,Failure
+2025-10-30 10:45:06,Wa-1050,Water Pump Station,0.9,Healthy
+2025-10-14 09:16:02,Tr-6407,Traffic Light,0.75,Degraded
+2025-10-01 13:54:31,Wa-1360,Water Pump Station,0.99,Healthy
+2025-10-23 13:29:04,Tr-3757,Transformer,0.63,Degraded
+2025-10-09 09:17:44,Wa-8495,Water Pump Station,0.36,Failure
+2025-10-05 13:45:28,Tr-6574,Transformer,0.51,Maintenance
+2025-10-18 09:24:17,CC-2468,CCTV Camera,0.59,Maintenance
+2025-10-18 13:05:37,CC-4869,CCTV Camera,0.55,Maintenance
+2025-10-27 11:00:00,CC-5421,CCTV Camera,0.78,Maintenance
+2025-10-24 08:07:23,Tr-9689,Transformer,0.67,Maintenance
+2025-10-05 11:15:54,Tr-9712,Transformer,0.91,Healthy
+2025-10-27 16:21:11,Wa-1627,Water Pump Station,0.62,Maintenance
+2025-10-31 07:40:24,Tr-7615,Transformer,0.65,Maintenance
+2025-10-29 15:13:46,CC-1561,CCTV Camera,0.7,Maintenance
+2025-10-31 13:52:21,Wa-9671,Water Pump Station,0.9,Healthy
+2025-10-23 17:29:29,Tr-4423,Transformer,0.82,Healthy
+2025-10-19 11:18:26,Wa-9729,Water Pump Station,0.55,Maintenance
+2025-10-18 10:30:37,Wa-6417,Water Pump Station,0.42,Failure
+2025-10-08 09:49:47,Tr-3558,Traffic Light,0.99,Healthy
+2025-10-22 13:28:33,CC-5807,CCTV Camera,0.65,Maintenance
+2025-10-13 15:12:04,Tr-8061,Transformer,0.49,Failure
+2025-10-05 14:22:18,Wa-1714,Water Pump Station,0.89,Healthy
+2025-10-07 09:36:48,Tr-8871,Traffic Light,0.72,Maintenance
+2025-10-21 08:31:01,Tr-9992,Traffic Light,0.99,Healthy
+2025-10-18 08:45:44,Wa-9675,Water Pump Station,0.52,Degraded
+2025-10-25 13:15:15,Wa-2803,Water Pump Station,0.47,Failure
+2025-10-28 08:07:55,CC-5354,CCTV Camera,0.16,Failure
+2025-10-09 11:15:42,CC-5594,CCTV Camera,0.66,Maintenance
+2025-10-09 09:01:28,CC-4112,CCTV Camera,0.94,Healthy
+2025-10-17 15:31:54,Tr-3321,Transformer,0.97,Healthy
+2025-10-22 10:20:28,Tr-7293,Traffic Light,0.18,Failure
+2025-10-09 12:18:43,Wa-7744,Water Pump Station,0.77,Degraded
+2025-10-24 16:28:11,Wa-9668,Water Pump Station,0.7,Degraded
+2025-10-27 08:27:00,Tr-9142,Transformer,0.01,Failure
+2025-10-18 14:48:40,Wa-4966,Water Pump Station,0.56,Maintenance
+2025-10-19 10:17:09,Wa-2276,Water Pump Station,0.91,Healthy
+2025-10-27 10:52:13,CC-9337,CCTV Camera,0.79,Degraded
+2025-10-06 12:45:07,Tr-8217,Transformer,0.98,Healthy
+2025-10-05 12:22:15,Wa-7467,Water Pump Station,0.99,Healthy
+2025-10-26 12:56:18,Wa-8163,Water Pump Station,0.44,Failure
+2025-10-09 11:35:37,Tr-2484,Transformer,0.86,Healthy
+2025-10-27 13:50:50,Wa-1179,Water Pump Station,0.95,Healthy
+2025-10-08 14:39:34,Tr-7519,Transformer,0.19,Failure
+2025-10-03 12:58:39,Tr-8623,Traffic Light,0.87,Healthy
+2025-10-28 15:39:39,Tr-5560,Transformer,0.16,Failure
+2025-10-08 11:59:14,CC-8761,CCTV Camera,0.98,Healthy
+2025-10-06 15:56:43,Tr-2335,Traffic Light,0.91,Healthy
+2025-10-10 09:29:33,CC-1073,CCTV Camera,0.81,Healthy
+2025-10-17 13:38:43,CC-1706,CCTV Camera,0.78,Maintenance
+2025-10-23 07:58:46,Tr-7433,Transformer,0.8,Degraded
+2025-10-26 10:01:53,CC-3328,CCTV Camera,0.62,Degraded
+2025-10-24 14:38:08,Tr-3669,Traffic Light,0.83,Healthy
+2025-10-22 10:19:58,CC-1765,CCTV Camera,0.95,Healthy
+2025-10-26 08:21:39,CC-3952,CCTV Camera,0.17,Failure
+2025-10-07 14:17:45,Tr-3857,Traffic Light,0.41,Failure
+2025-10-29 09:01:09,CC-6372,CCTV Camera,0.73,Maintenance
+2025-10-12 13:48:38,Wa-3542,Water Pump Station,0.67,Maintenance
+2025-10-25 08:23:34,Wa-3899,Water Pump Station,0.77,Degraded
+2025-10-25 10:39:10,Tr-4160,Traffic Light,0.32,Failure
+2025-10-12 12:12:52,Tr-4911,Transformer,0.41,Failure
+2025-10-28 11:11:54,Tr-3209,Transformer,0.73,Maintenance
+2025-10-10 12:57:27,Tr-9481,Traffic Light,0.5,Maintenance
+2025-10-10 17:45:55,Tr-8007,Traffic Light,0.67,Maintenance
+2025-10-05 17:11:06,CC-9395,CCTV Camera,0.87,Healthy
+2025-10-09 13:57:32,Wa-6191,Water Pump Station,0.55,Degraded
+2025-10-09 15:27:11,Wa-1314,Water Pump Station,0.77,Maintenance
+2025-10-26 08:43:14,Tr-7780,Traffic Light,0.93,Healthy
+2025-10-20 11:41:28,Wa-7381,Water Pump Station,0.98,Healthy
+2025-10-10 11:19:13,Tr-2268,Transformer,0.52,Maintenance
+2025-10-26 09:44:58,Wa-5191,Water Pump Station,0.34,Failure
+2025-10-07 14:12:58,Tr-7753,Transformer,0.84,Healthy
+2025-10-19 16:00:22,Tr-4121,Transformer,0.99,Healthy
+2025-10-02 14:50:56,Tr-2577,Transformer,0.82,Healthy
+2025-10-03 13:49:55,Tr-1349,Transformer,0.84,Healthy
+2025-10-23 08:24:51,CC-8478,CCTV Camera,0.96,Healthy
+2025-10-16 17:31:31,Tr-8807,Transformer,0.82,Healthy
+2025-10-06 09:19:54,Tr-9775,Transformer,0.97,Healthy
+2025-10-06 17:34:28,Tr-9451,Traffic Light,0.82,Healthy
+2025-10-04 17:25:43,Wa-6465,Water Pump Station,0.87,Healthy
+2025-10-04 13:56:31,Tr-8723,Transformer,0.99,Healthy
+2025-10-03 07:55:03,Tr-1602,Transformer,0.8,Healthy
+2025-10-14 14:30:51,Wa-9983,Water Pump Station,0.55,Degraded
+2025-10-13 17:44:10,Tr-6378,Traffic Light,0.64,Degraded
+2025-10-02 17:42:25,Tr-4709,Traffic Light,0.69,Degraded
+2025-10-29 15:44:10,Wa-4902,Water Pump Station,0.18,Failure
+2025-10-07 16:49:25,Wa-7893,Water Pump Station,0.61,Maintenance
+2025-10-22 08:25:55,Wa-7332,Water Pump Station,0.91,Healthy
+2025-10-10 10:30:44,Tr-1092,Traffic Light,0.34,Failure
+2025-10-01 13:57:49,Tr-1319,Traffic Light,0.75,Degraded
+2025-10-09 14:58:38,Tr-1625,Traffic Light,0.73,Degraded
+2025-10-13 14:32:35,Wa-3509,Water Pump Station,0.74,Maintenance
+2025-10-21 14:32:24,CC-6454,CCTV Camera,0.36,Failure
+2025-10-13 16:41:59,Wa-6964,Water Pump Station,0.66,Degraded
+2025-10-28 15:18:56,Wa-7680,Water Pump Station,0.91,Healthy
+2025-10-12 11:35:46,Tr-8070,Traffic Light,0.98,Healthy
+2025-10-26 15:56:57,CC-7254,CCTV Camera,0.11,Failure
+2025-10-20 11:08:42,Wa-4933,Water Pump Station,0.62,Maintenance
+2025-10-02 13:06:22,Tr-5134,Transformer,0.77,Maintenance
+2025-10-14 08:39:51,Tr-8775,Traffic Light,0.98,Healthy
+2025-10-22 10:55:40,Wa-1660,Water Pump Station,0.76,Maintenance
+2025-10-27 14:17:19,Tr-2747,Transformer,0.91,Healthy
+2025-10-23 15:37:44,Wa-7429,Water Pump Station,0.01,Failure
+2025-10-14 17:50:32,CC-8093,CCTV Camera,0.71,Degraded
+2025-10-08 10:56:51,Tr-3778,Traffic Light,0.64,Maintenance
+2025-10-15 11:15:40,Tr-5648,Transformer,0.95,Healthy
+2025-10-25 12:29:24,CC-6659,CCTV Camera,0.83,Healthy
+2025-10-15 15:00:35,CC-9498,CCTV Camera,0.56,Degraded
+2025-10-18 15:29:49,Tr-6319,Traffic Light,0.61,Maintenance
+2025-10-14 13:18:22,Wa-5769,Water Pump Station,0.28,Failure
+2025-10-28 16:13:12,Wa-7726,Water Pump Station,0.61,Maintenance
+2025-10-11 13:57:22,Wa-6683,Water Pump Station,0.54,Degraded
+2025-10-24 16:25:11,Tr-3715,Transformer,0.81,Healthy
+2025-10-08 09:21:18,Wa-8594,Water Pump Station,0.04,Failure
+2025-10-19 16:00:26,CC-9927,CCTV Camera,0.95,Healthy
+2025-10-04 11:50:34,Wa-3506,Water Pump Station,0.84,Healthy
+2025-10-30 17:27:22,Tr-9606,Traffic Light,0.75,Degraded
+2025-10-08 10:05:54,CC-6491,CCTV Camera,0.74,Degraded
+2025-10-09 10:57:39,CC-3593,CCTV Camera,0.69,Maintenance
+2025-10-19 08:17:50,Wa-7162,Water Pump Station,0.57,Maintenance
+2025-10-09 10:01:55,Tr-7394,Transformer,0.99,Healthy
+2025-10-01 10:32:30,CC-7719,CCTV Camera,0.74,Maintenance
+2025-10-16 15:39:17,Wa-1080,Water Pump Station,0.92,Healthy
+2025-10-22 14:51:35,Tr-4357,Transformer,0.92,Healthy
+2025-10-12 16:09:27,Tr-5369,Transformer,0.61,Degraded
+2025-10-04 17:52:43,Wa-1171,Water Pump Station,0.82,Healthy
+2025-10-15 10:27:53,Tr-8875,Transformer,0.53,Maintenance
+2025-10-03 12:13:36,Tr-7047,Transformer,0.7,Maintenance
+2025-10-24 14:39:40,Tr-2276,Traffic Light,0.96,Healthy
+2025-10-10 17:09:23,Wa-1422,Water Pump Station,0.97,Healthy
+2025-10-03 09:31:38,CC-4409,CCTV Camera,0.71,Maintenance
+2025-10-02 10:55:41,CC-1346,CCTV Camera,0.78,Degraded
+2025-10-18 11:08:55,CC-1879,CCTV Camera,0.78,Maintenance
+2025-10-17 10:39:05,CC-6480,CCTV Camera,0.65,Degraded
+2025-10-13 12:31:20,Tr-8863,Traffic Light,0.92,Healthy
+2025-10-25 11:40:54,Wa-9314,Water Pump Station,0.67,Maintenance
+2025-10-01 10:09:52,CC-5346,CCTV Camera,0.09,Failure
+2025-10-13 13:26:48,Tr-3613,Transformer,0.15,Failure
+2025-10-20 17:15:40,Wa-8486,Water Pump Station,0.81,Healthy
+2025-10-28 08:28:59,Tr-8833,Transformer,0.67,Maintenance
+2025-10-05 09:17:40,Tr-2511,Transformer,0.85,Healthy
+2025-10-27 11:06:32,Tr-2816,Transformer,0.86,Healthy
+2025-10-13 07:48:20,Tr-3271,Traffic Light,0.75,Degraded
+2025-10-27 17:28:36,Tr-4252,Transformer,0.51,Degraded
+2025-10-24 11:00:25,CC-2753,CCTV Camera,0.67,Maintenance
+2025-10-06 08:22:58,Tr-1084,Traffic Light,0.12,Failure
+2025-10-04 15:18:50,Tr-5496,Transformer,0.11,Failure
+2025-10-03 15:42:48,Tr-6814,Transformer,0.53,Maintenance
+2025-10-06 11:35:05,Wa-7918,Water Pump Station,0.85,Healthy
+2025-10-06 15:24:36,CC-3383,CCTV Camera,0.59,Degraded
+2025-10-28 10:33:49,CC-6884,CCTV Camera,0.86,Healthy
+2025-10-09 17:31:09,Tr-7573,Traffic Light,0.65,Maintenance
+2025-10-05 14:57:29,Tr-4746,Transformer,0.69,Maintenance
+2025-10-10 11:10:21,Wa-8076,Water Pump Station,0.86,Healthy
+2025-10-15 13:44:53,Wa-5638,Water Pump Station,0.64,Degraded
+2025-10-23 13:31:37,Tr-8307,Traffic Light,0.6,Degraded
+2025-10-04 15:34:04,Tr-4062,Transformer,0.99,Healthy
+2025-10-03 13:05:32,CC-4746,CCTV Camera,0.7,Degraded
+2025-10-25 12:17:03,CC-9413,CCTV Camera,0.79,Maintenance
+2025-10-07 10:56:13,Wa-7541,Water Pump Station,0.25,Failure
+2025-10-16 14:46:06,Wa-6153,Water Pump Station,0.26,Failure
+2025-10-06 08:09:54,Tr-2505,Transformer,0.89,Healthy
+2025-10-01 14:18:26,Tr-4725,Transformer,0.96,Healthy
+2025-10-30 10:28:59,Wa-1796,Water Pump Station,0.62,Degraded
+2025-10-06 13:21:51,Wa-6354,Water Pump Station,0.53,Degraded
+2025-10-26 14:40:58,Wa-1463,Water Pump Station,0.85,Healthy
+2025-10-21 14:53:51,Tr-7269,Traffic Light,0.91,Healthy
+2025-10-10 17:11:49,Tr-2908,Transformer,0.52,Degraded
+2025-10-01 09:58:20,Wa-4239,Water Pump Station,0.97,Healthy
+2025-10-12 17:14:59,Tr-2094,Transformer,0.27,Failure
+2025-10-01 08:51:01,Tr-7806,Traffic Light,0.64,Maintenance
+2025-10-03 09:06:48,CC-4442,CCTV Camera,0.88,Healthy
+2025-10-22 10:21:01,CC-1467,CCTV Camera,0.71,Maintenance
+2025-10-15 16:37:17,CC-3201,CCTV Camera,0.3,Failure
+2025-10-21 14:01:37,Tr-5124,Transformer,0.71,Degraded
+2025-10-18 12:50:16,Tr-3324,Traffic Light,0.92,Healthy
+2025-10-20 11:09:48,Tr-7208,Transformer,0.67,Degraded
+2025-10-15 12:26:09,Tr-4303,Transformer,0.21,Failure
+2025-10-21 08:25:24,Tr-2729,Traffic Light,0.94,Healthy
+2025-10-01 09:31:04,Tr-9339,Traffic Light,0.45,Failure
+2025-10-11 15:46:47,Wa-3927,Water Pump Station,0.66,Maintenance
+2025-10-15 13:04:30,CC-5168,CCTV Camera,0.52,Maintenance
+2025-10-03 16:37:57,Tr-4826,Transformer,0.89,Healthy
+2025-10-18 15:43:00,Tr-8873,Transformer,0.96,Healthy
+2025-10-25 14:28:27,Tr-8323,Traffic Light,0.67,Degraded
+2025-10-13 14:26:25,Tr-8036,Traffic Light,0.58,Degraded
+2025-10-14 12:46:11,Wa-4739,Water Pump Station,0.59,Maintenance
+2025-10-13 17:24:22,Wa-9558,Water Pump Station,0.56,Degraded
+2025-10-30 17:33:49,Tr-3541,Traffic Light,0.17,Failure
+2025-10-03 11:03:48,Tr-8677,Traffic Light,0.2,Failure
+2025-10-29 15:37:26,Wa-7741,Water Pump Station,0.25,Failure
+2025-10-06 08:23:48,CC-1772,CCTV Camera,0.77,Maintenance
+2025-10-15 12:33:37,Wa-6374,Water Pump Station,0.66,Degraded
+2025-10-04 15:55:41,Tr-3492,Transformer,0.93,Healthy
+2025-10-27 12:24:17,Wa-8231,Water Pump Station,0.02,Failure
+2025-10-08 15:23:24,Tr-6204,Transformer,0.91,Healthy
+2025-10-02 08:29:09,Wa-1008,Water Pump Station,0.02,Failure
+2025-10-20 07:46:26,Wa-8261,Water Pump Station,0.7,Degraded
+2025-10-31 15:57:33,Wa-9449,Water Pump Station,0.89,Healthy
+2025-10-07 09:40:08,Tr-9084,Transformer,0.34,Failure
+2025-10-17 10:28:20,Wa-7105,Water Pump Station,0.91,Healthy
+2025-10-05 09:31:40,CC-7403,CCTV Camera,0.89,Healthy
+2025-10-26 14:42:00,Tr-8677,Transformer,0.81,Healthy
+2025-10-13 12:11:54,Tr-3552,Traffic Light,0.48,Failure
+2025-10-31 13:20:10,Tr-8600,Transformer,0.77,Degraded
+2025-10-09 11:39:08,Tr-7654,Traffic Light,0.1,Failure
+2025-10-05 11:46:16,CC-9861,CCTV Camera,0.11,Failure
+2025-10-11 11:43:25,Wa-3234,Water Pump Station,0.91,Healthy
+2025-10-07 09:13:30,CC-7228,CCTV Camera,0.91,Healthy
+2025-10-25 14:38:38,Tr-2282,Transformer,0.92,Healthy
+2025-10-25 14:28:34,Tr-1250,Transformer,0.84,Healthy
+2025-10-24 09:07:19,Tr-2371,Transformer,0.95,Healthy
+2025-10-30 10:20:59,Tr-1456,Transformer,0.92,Healthy
+2025-10-19 17:14:31,Wa-7021,Water Pump Station,0.64,Degraded
+2025-10-01 08:55:35,CC-5562,CCTV Camera,0.61,Degraded
+2025-10-18 11:46:00,Wa-6566,Water Pump Station,0.75,Degraded
+2025-10-29 16:45:06,Tr-1721,Traffic Light,0.83,Healthy
+2025-10-12 09:45:19,Wa-2037,Water Pump Station,0.63,Maintenance
+2025-10-24 14:27:07,Tr-2910,Traffic Light,0.89,Healthy
+2025-10-16 14:47:20,Wa-1509,Water Pump Station,0.06,Failure
+2025-10-27 11:04:34,Wa-5061,Water Pump Station,0.81,Healthy
+2025-10-30 09:55:54,CC-7296,CCTV Camera,0.06,Failure
+2025-10-14 13:04:57,Tr-4105,Transformer,0.6,Degraded
+2025-10-09 12:11:36,Wa-9117,Water Pump Station,0.41,Failure
+2025-10-17 11:03:46,Tr-6432,Transformer,0.83,Healthy
+2025-10-01 14:09:37,Wa-7842,Water Pump Station,0.99,Healthy
+2025-10-26 14:12:45,Tr-5120,Transformer,0.66,Degraded
+2025-10-23 15:22:15,CC-1567,CCTV Camera,0.9,Healthy
+2025-10-14 08:58:48,Wa-6690,Water Pump Station,0.82,Healthy
+2025-10-30 15:19:58,Wa-4770,Water Pump Station,0.88,Healthy
+2025-10-09 15:14:47,Tr-3588,Transformer,0.85,Healthy
+2025-10-30 16:07:25,Wa-4540,Water Pump Station,0.89,Healthy
+2025-10-05 15:38:01,Tr-5535,Traffic Light,0.91,Healthy
+2025-10-16 09:28:04,Tr-6375,Traffic Light,0.15,Failure
+2025-10-09 08:49:57,Tr-1575,Transformer,0.82,Healthy
+2025-10-04 09:20:21,Wa-5790,Water Pump Station,0.96,Healthy
+2025-10-25 08:18:04,Tr-4299,Transformer,0.76,Maintenance
+2025-10-09 15:24:55,CC-9236,CCTV Camera,0.27,Failure
+2025-10-21 11:18:36,Wa-3010,Water Pump Station,0.68,Degraded
+2025-10-15 13:14:49,CC-3853,CCTV Camera,0.86,Healthy
+2025-10-16 09:36:33,Tr-1513,Transformer,0.8,Healthy
+2025-10-22 13:01:22,Tr-5412,Transformer,0.82,Healthy
+2025-10-11 13:08:37,Tr-6192,Transformer,0.49,Failure
+2025-10-06 15:49:33,Tr-5076,Traffic Light,0.42,Failure
+2025-10-23 09:01:34,Tr-1918,Transformer,0.39,Failure
+2025-10-23 09:50:18,Wa-5601,Water Pump Station,0.92,Healthy
+2025-10-04 12:05:38,Tr-9729,Transformer,0.24,Failure
+2025-10-28 14:30:30,Tr-7941,Traffic Light,0.55,Maintenance
+2025-10-06 14:02:16,Tr-8820,Traffic Light,0.88,Healthy
+2025-10-27 13:25:28,Tr-6051,Traffic Light,0.82,Healthy
+2025-10-26 12:23:43,Wa-3108,Water Pump Station,0.5,Maintenance
+2025-10-03 11:02:07,CC-3040,CCTV Camera,0.26,Failure
+2025-10-05 10:48:59,Tr-5399,Transformer,0.63,Maintenance
+2025-10-21 15:44:00,Wa-9589,Water Pump Station,0.87,Healthy
+2025-10-22 17:37:55,Tr-4625,Traffic Light,0.4,Failure
+2025-10-10 14:53:22,Wa-4052,Water Pump Station,0.66,Maintenance
+2025-10-19 16:25:47,Wa-7838,Water Pump Station,0.57,Degraded
+2025-10-11 14:59:26,Wa-5062,Water Pump Station,0.9,Healthy
