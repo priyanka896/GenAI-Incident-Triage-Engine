@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maharastra Citizen Grievance Governance Platform</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-2.31.1.min.js"></script>
+    <style>
+        /* Custom styles for professional appearance */
+        #barChart, #scatterChart {
+            height: 400px; 
+            width: 100%;
+        }
+        .metric-card {
+            transition: transform 0.2s;
+        }
+        .metric-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 p-4 sm:p-8 font-sans">
+
+    <div class="max-w-7xl mx-auto">
+        <header class="mb-10 p-6 bg-white shadow-2xl rounded-xl border-t-4 border-indigo-600">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-indigo-800">
+                ⭐ Maharastra Citizen Grievance Governance Dashboard: Decision Engine
+            </h1>
+            <p class="text-xl text-gray-600 mt-2">
+                Real-Time AI-Powered Citizen Grievance Triage and Executive Summary
+            </p>
+            <p class="text-sm text-gray-400 mt-1">
+                Data from Cloud Run API: https://decision-engine-886501598007.us-central1.run.app
+            </p>
+        </header>
+
+        <main class="space-y-10">
+
+            <div class="bg-white p-6 shadow-xl rounded-xl border border-gray-200">
+                <h2 class="text-2xl font-bold text-indigo-700 mb-3 flex items-center">
+                    <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
+                    Gemini Executive Summary
+                </h2>
+                <p id="ai-summary-text" class="text-lg font-medium text-gray-700 italic bg-indigo-50 p-4 rounded-lg">
+                    Loading critical summary from Gemini AI...
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                <div class="metric-card bg-white p-6 shadow-lg rounded-xl border-b-4 border-blue-500">
+                    <p class="text-sm font-medium text-gray-500">Total Urgent Reports (Top 20)</p>
+                    <h2 id="total-reports" class="text-4xl font-bold text-blue-700 mt-1">...</h2>
+                </div>
+
+                <div class="metric-card bg-white p-6 shadow-lg rounded-xl border-b-4 border-red-500">
+                    <p class="text-sm font-medium text-gray-500">High Urgency Score (>45%)</p>
+                    <h2 id="high-priority-count" class="text-4xl font-bold text-red-700 mt-1">...</h2>
+                </div>
+                
+                <div class="metric-card bg-white p-6 shadow-lg rounded-xl border-b-4 border-green-500">
+                    <p class="text-sm font-medium text-gray-500">AI Model Used</p>
+                    <h2 class="text-2xl font-bold text-green-700 mt-2">Gemini 2.0 Flash</h2>
+                </div>
+
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="bg-white p-6 shadow-xl rounded-xl border border-gray-200">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Departmental Breakdown of Urgent Cases</h2>
+                    <div id="barChart" class="w-full"></div>
+                </div>
+
+                <div class="bg-white p-6 shadow-xl rounded-xl border border-gray-200">
+                    <h2 class="text-xl font-semibold text-gray-700 mb-4">Urgency Scores of Individual Reports</h2>
+                    <div id="scatterChart" class="w-full"></div>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 shadow-xl rounded-xl border border-gray-200">
+                <h2 class="text-2xl font-semibold text-gray-700 mb-4">🔍 Detailed Triage Report</h2>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-gray-200">
+                        <thead class="bg-gray-50">
+                            <tr>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Report ID</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Department</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Description</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Urgency Score</th>
+                            </tr>
+                        </thead>
+                        <tbody id="report-table-body" class="bg-white divide-y divide-gray-200">
+                            <tr><td colspan="4" class="text-center py-4 text-gray-500">Loading reports...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script>
+        // The URL of your deployed Cloud Run service (Make sure this is correct!)
+        const BASE_URL = "https://decision-engine-886501598007.us-central1.run.app";
+        
+        // Function to create an appealing chart layout
+        const getLayout = (title, yaxisTitle) => ({
+            title: {
+                text: title,
+                font: { size: 18, family: 'Inter, sans-serif', color: '#374151' }
+            },
+            responsive: true,
+            plot_bgcolor: '#ffffff',
+            paper_bgcolor: '#ffffff',
+            margin: { t: 50, b: 50, l: 50, r: 20 },
+            xaxis: { automargin: true, tickangle: -45 },
+            yaxis: { title: yaxisTitle }
+        });
+
+        // --- Core Fetch Functions ---
+
+        async function fetchTriageData() {
+            const url = `${BASE_URL}/triage`;
+            try {
+                const res = await fetch(url);
+                if (!res.ok) {
+                    throw new Error("HTTP error! status: " + res.status);
+                }
+                const data = await res.json();
+                
+                // 1. Update Metrics Cards
+                document.getElementById('total-reports').textContent = data.summary.total_reports;
+                document.getElementById('high-priority-count').textContent = data.summary.high_priority;
+
+                // 2. Generate Charts
+                renderBarChart(data.summary.departments);
+                renderScatterChart(data.triaged);
+
+                // 3. Populate Table
+                populateReportTable(data.triaged);
+
+            } catch (error) {
+                console.error("Error fetching or processing triage data:", error);
+                displayError('barChart', 'triage data', url);
+            }
+        }
+
+        async function fetchAISummary() {
+            const url = `${BASE_URL}/summary`;
+            try {
+                const res = await fetch(url);
+                if (!res.ok) {
+                    throw new Error("HTTP error! status: " + res.status);
+                }
+                const data = await res.json();
+                const summaryElement = document.getElementById('ai-summary-text');
+                
+                if (data.error) {
+                    summaryElement.innerHTML = `**AI Summary Error:** ${data.error}`;
+                    summaryElement.classList.remove('text-primary');
+                    summaryElement.classList.add('text-red-700', 'bg-red-100');
+                } else {
+                    summaryElement.textContent = data.ai_summary;
+                    summaryElement.classList.remove('italic', 'bg-indigo-50');
+                    summaryElement.classList.add('bg-white', 'text-gray-800');
+                }
+            } catch (error) {
+                console.error('Fetch error for /summary:', error);
+                document.getElementById('ai-summary-text').innerHTML = 'Backend connection error for **Gemini Summary**. Check the Cloud Run URL/logs.';
+                document.getElementById('ai-summary-text').classList.add('text-red-700', 'bg-red-100');
+            }
+        }
+        
+        // --- Visualization Functions ---
+
+        function renderBarChart(departmentsData) {
+            const departments = Object.keys(departmentsData);
+            const counts = Object.values(departmentsData);
+
+            Plotly.newPlot("barChart", [{
+                x: departments,
+                y: counts,
+                type: "bar",
+                name: 'Urgent Count',
+                marker: {
+                    color: '#4F46E5', // Indigo color
+                },
+                hoverinfo: 'x+y'
+            }], getLayout("Departmental Urgency Breakdown", "Number of Urgent Reports"), {displayModeBar: false});
+        }
+
+        function renderScatterChart(triagedReports) {
+            const hoverText = triagedReports.map(d =>
+                `Dept: ${d.dept}<br>ID: ${d.report_id}<br>Desc: ${d.description}<br>Score: ${d.score.toFixed(4)}`
+            );
+
+            Plotly.newPlot("scatterChart", [{
+                x: triagedReports.map(d => d.report_id),
+                y: triagedReports.map(d => d.score),
+                mode: "markers",
+                name: 'Urgency Score',
+                marker: {
+                    size: 12,
+                    color: triagedReports.map(d => d.score),
+                    colorscale: "Viridis", // Professional color scale
+                    showscale: true,
+                    colorbar: { title: 'Urgency Score' }
+                },
+                text: hoverText,
+                hoverinfo: 'text'
+            }], getLayout("Urgency Scores of Individual Reports (Top 20)", "Urgency Score (0.0 - 1.0)"), {displayModeBar: false});
+        }
+
+        function populateReportTable(triagedReports) {
+            const tableBody = document.getElementById('report-table-body');
+            tableBody.innerHTML = '';
+            triagedReports.forEach(report => {
+                const row = tableBody.insertRow();
+                const scoreText = (report.score * 100).toFixed(1) + '%';
+                let rowClass = 'text-gray-900';
+                
+                // Highlight rows with a very high urgency score
+                if (report.score > 0.5) {
+                    rowClass = 'bg-red-50 font-semibold text-red-700';
+                }
+
+                row.className = rowClass;
+                row.innerHTML = `
+                    <td class="px-6 py-4 whitespace-nowrap text-sm">${report.report_id}</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm">${report.dept}</td>
+                    <td class="px-6 py-4 text-sm max-w-xs truncate">${report.description}</td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm">${scoreText}</td>
+                `;
+            });
+        }
+
+        function displayError(elementId, dataName, url) {
+            let errorMessage = `<p class="text-xl font-bold text-red-600">⚠️ ERROR: Could not fetch ${dataName} from the Cloud Run API.</p>`;
+            errorMessage += `<p class="mt-2 text-red-700">This is often caused by **CORS** restrictions when running locally.</p>`;
+            errorMessage += `<p class="mt-1 text-red-700"><strong>Action:</strong> Ensure your Cloud Run service was deployed with the <code>--allow-unauthenticated</code> and that the Python server uses <code>flask-cors</code> (which your <code>main.py</code> does). If running locally, check your browser console for CORS error details.</p>`;
+            document.getElementById(elementId).innerHTML = errorMessage;
+        }
+
+
+        // --- Initialization ---
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Run both fetches concurrently for a faster load time
+            fetchTriageData();
+            fetchAISummary();
+        });
+    </script>
+</body>
+</html>
